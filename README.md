@@ -1,0 +1,2 @@
+# yangyang.dev
+blog
