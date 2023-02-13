@@ -2,9 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yangyang.dev/categories/</loc>
-  </url><url>
     <loc>https://yangyang.dev/</loc>
+    <lastmod>2023-02-13T09:01:23+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/python/my-second-post1/</loc>
+    <lastmod>2023-02-13T09:01:23+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/</loc>
+    <lastmod>2023-02-13T09:01:23+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/python/my-second-post/</loc>
+    <lastmod>2023-02-13T09:01:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/subtilte-video-search-engine/</loc>
+    <lastmod>2023-02-12T08:30:12+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/about/</loc>
+    <lastmod>2023-02-11T08:59:55+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/posts/resume/</loc>
+    <lastmod>2023-02-11T06:48:14+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyang.dev/categories/</loc>
   </url><url>
     <loc>https://yangyang.dev/tags/</loc>
   </url>
