@@ -6,10 +6,6 @@ draft: true
 
 ## Introduction
 
-啊啊
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
 技术栈：
 ### C
 
