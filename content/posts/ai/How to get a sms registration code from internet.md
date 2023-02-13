@@ -3,14 +3,17 @@ title: "how to get a sms registration code from internet"
 date: 2023-02-13T08:27:55+08:00
 draft: true
 ---
-注册chatgpt参考： https://foofish.net/how-to-registe-chatGPT.html
+
+(注册chatgpt参考： https://foofish.net/how-to-registe-chatGPT.html)
+## （这篇文章是怎么获取chatgpt注册短信的教程，全流程请参考上面的链接或网上搜索）
+---
 
 1.注册登录(https://sms-activate.org/cn)
 ---
 
 2.概览
 ---
-![概览](https://i.328888.xyz/2023/02/13/cRJUF.png){:height="50%" width="50%"}
+![概览](https://i.328888.xyz/2023/02/13/cRJUF.png)
 
 2.充值
 ---
