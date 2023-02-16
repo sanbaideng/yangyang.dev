@@ -11,7 +11,7 @@ draft: true
 简要架构
 ---
 
-![avatar](https://i.328888.xyz/2023/02/16/mqBza.png)
+![avatar](https://i.328888.xyz/2023/02/16/mqFS3.png)
 
 涉及内容：
 
