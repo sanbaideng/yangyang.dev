@@ -48,5 +48,19 @@ https://www.npmjs.com/package/chatgpt#demos
     .    
   }
 ```
+
+相关截图：
+ - 1.收消息
+  ---
+  ![微信机器人收消息](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676590010/message1_vyaizv.jpg)
+  
+  ---
+
+ - 2.收消息，调用gpt api ，再发消息
+  ---
+  ![微信机器人收消息，调用gpt api ，再发消息](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676590013/message2_fqo3ty.jpg)
+  
+  ---
+ 
 待解决：
 在vscode中调试puppet-xp项目（typescript）
