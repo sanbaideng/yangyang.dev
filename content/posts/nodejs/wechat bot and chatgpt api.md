@@ -58,7 +58,7 @@ https://www.npmjs.com/package/chatgpt#demos
 
  - 2.收消息，调用gpt api ，再发消息
   ---
-  ![微信机器人收消息，调用gpt api ，再发消息](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676590013/message2_fqo3ty.jpg)
+  ![微信机器人收消息，调用gpt api ，再发消息](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676590762/message2_rkjpqj.jpg)
   
   ---
  
