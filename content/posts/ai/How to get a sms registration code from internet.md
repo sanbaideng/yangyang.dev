@@ -13,36 +13,36 @@ draft: true
 
 2.概览
 ---
-![概览](https://i.328888.xyz/2023/02/13/cRJUF.png)
+![概览](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538183/cRJUF_nfje8u.png)
 
 2.充值
 ---
 - 点充值
 
-![avatar](https://i.328888.xyz/2023/02/13/cRPVE.jpeg)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538183/cRPVE_lzdwsh.jpg)
 ---
 - 选支付宝
 
-![avatar](https://i.328888.xyz/2023/02/13/cR1QX.jpeg)
-- 充1$（7￥左右）
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538181/cR1QX_wryhu4.jpg)
+- 充0.5$（3￥左右）可以根据第4步选的国家的标价（卢布计价）来，看充多少钱，1美金大概70多卢布。
 
-![avatar](https://i.328888.xyz/2023/02/13/cRqgJ.png)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538183/cRqgJ_pvzeys.png)
 
 ---
 
 3.搜索openai(gpt是openai的项目)
 ---
 
-![avatar](https://i.328888.xyz/2023/02/13/cRuLc.jpeg)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538187/cRuLc_jxoreo.jpg)
 
 4.选美国(加购物车)
 ---
 
-![avatar](https://i.328888.xyz/2023/02/13/ccfoN.png)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538182/ccfoN_gkus2c.png)
 
 ps:有可能人太多 号码不够 等一下，或者停止了再试
 
-![avatar](https://i.328888.xyz/2023/02/13/ccAjd.jpeg)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538181/ccAjd_luak2m.jpg)
 
 
 
@@ -51,7 +51,7 @@ ps:有可能人太多 号码不够 等一下，或者停止了再试
 ---
 6.然后去查看自己买的号码的短信(20分钟左右有效)
 
-![avatar](https://i.328888.xyz/2023/02/13/cctlz.jpeg)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676538181/cctlz_ydjbs7.jpg)
 
 6.收到注册码了就去按流程注册 
 ---
