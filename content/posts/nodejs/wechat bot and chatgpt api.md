@@ -22,6 +22,7 @@ https://www.npmjs.com/package/chatgpt#demos
 
 
 注意点：
+(请使用小号或不重要的微信号，防止被封，根据本人使用经验，puppet-xp暂时没啥问题，不排除后面微信有动作)
 微信必须是指定版本，请查看查看项目readme
 回复功能需要自己写一部分代码（在onRecvMsg方法中编写）
 ```
