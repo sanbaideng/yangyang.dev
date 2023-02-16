@@ -19,3 +19,33 @@ draft: true
 https://github.com/wechaty/puppet-xp
 - npm chatgpt:
 https://www.npmjs.com/package/chatgpt#demos
+
+
+注意点：
+微信必须是指定版本，请查看查看项目readme
+回复功能需要自己写一部分代码（在onRecvMsg方法中编写）
+```
+   
+  const onRecvMsg = async (args: any) => {
+    .
+    .
+    const questiontext = text.replace('@fakegpt_x','')
+    try{
+      if(talkerId && text.startsWith('@fakegpt_x') ){
+        const res = await api.sendMessage(questiontext)
+        await sidecar.sendMsg(toId, questiontext + '\n--------\n' +res.text)
+        console.log(res)
+      }
+    }catch(ex){
+      var result=(ex as Error).message
+      console.info('------err----'+result)    
+      await sidecar.sendMsg(toId, questiontext + '\n--------\n' +'这个问题可能超时或出错了。')
+
+    }
+    .
+    .
+    .    
+  }
+```
+待解决：
+在vscode中调试puppet-xp项目（typescript）
