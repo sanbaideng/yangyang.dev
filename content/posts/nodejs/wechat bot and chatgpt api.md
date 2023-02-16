@@ -11,7 +11,7 @@ draft: true
 简要架构
 ---
 
-![avatar](https://i.328888.xyz/2023/02/16/mqFS3.png)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676536049/wechtbot_chatgpt_tvdxon.png)
 
 涉及内容：
 
