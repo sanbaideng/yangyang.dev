@@ -11,7 +11,7 @@ draft: true
 简要架构
 ---
 
-![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676536049/wechtbot_chatgpt_tvdxon.png)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676537068/result_uqaito.jpg)
 
 涉及内容：
 
