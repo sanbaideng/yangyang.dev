@@ -11,7 +11,7 @@ draft: true
 简要架构
 ---
 
-![avatar](https://i.328888.xyz/2023/02/13/cmNud.png)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676537068/result_uqaito.jpg)
 
 涉及内容：
 
