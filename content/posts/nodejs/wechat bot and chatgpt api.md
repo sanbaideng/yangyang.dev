@@ -5,13 +5,13 @@ draft: true
 ---
 # 个人微信接入chatgpt
 
-  - ```微信机器人 和 chatgpt接口```
+  - ```微信机器人 和 chatgpt接口 、 openai图片生成api```
 
 
 简要架构
 ---
 
-![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676537368/wecahtbot-chatgpt_ard2kp.jpg)
+![avatar](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676598390/wecgatbot3_slru5x.jpg)
 
 涉及内容：
 
@@ -19,12 +19,14 @@ draft: true
 https://github.com/wechaty/puppet-xp
 - npm chatgpt:
 https://www.npmjs.com/package/chatgpt#demos
-
+- openai 
+https://platform.openai.com/docs/guides/images/usage
 
 注意点：
 - (请使用小号或不重要的微信号，防止被封，根据本人使用经验，puppet-xp暂时没啥问题，不排除后面微信有动作)
 - 微信必须是指定版本，请查看查看项目readme
 - 回复功能需要自己写一部分代码（在onRecvMsg方法中编写）
+- openai 画图是收费的，免费账户有18美金额度。
 ```
    
   const onRecvMsg = async (args: any) => {
