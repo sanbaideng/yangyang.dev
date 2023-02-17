@@ -64,5 +64,10 @@ https://platform.openai.com/docs/guides/images/usage
   
   ---
  
+- 3.收到画图消息，调用openai的接口，存储图片，再转发图片到微信
+  ---
+  ![微信机器人收消息，调用gpt api ，再发消息](https://res.cloudinary.com/dkmuoufxh/image/upload/v1676598565/wecgatbot4_pnrfsv.jpg)
+  
+  ---
 待解决：
 在vscode中调试puppet-xp项目（typescript）
