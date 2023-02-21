@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Some technical record about software devlopment"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -52,9 +52,9 @@ pygmentsCodefencesGuessSyntax = true
   linkedin = "yang-yang-49b1264a"  
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 50
+    # name = "Blog"
+    # url = ""
+    # weight = 50
 
 # [[menu.main]]
 #     name = "About"
