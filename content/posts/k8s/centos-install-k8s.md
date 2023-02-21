@@ -1,5 +1,5 @@
 ---
-title: "Centos Install K8s"
+title: "[Cloud Native] Install K8s on CentOS"
 date: 2023-02-20T13:53:16+08:00
 draft: true
 ---

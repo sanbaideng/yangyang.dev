@@ -1,7 +1,7 @@
 ---
-title: "Centos Install Docker"
+title: "[Cloud Native] Install Docker on CentOS"
 date: 2023-02-20T13:48:58+08:00
-draft: true
+draft: false
 ---
 
 centos安装docker

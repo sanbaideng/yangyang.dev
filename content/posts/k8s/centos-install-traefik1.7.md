@@ -1,7 +1,7 @@
 ---
-title: "Centos Install Traefik1.7"
+title: "[Cloud Native] Install Traefik1.7 on CentOS"
 date: 2023-02-20T14:01:39+08:00
-draft: true
+draft: false
 ---
 
 from traefik docment website:

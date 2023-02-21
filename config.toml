@@ -1,6 +1,6 @@
 baseURL = 'https://yangyang.dev/'
 languageCode = 'en-us'
-title = 'yangyang.dev blog'
+title = 'yangyang dev blog'
 theme = 'ananke'
 resourceDir = "../resources"
 

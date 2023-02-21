@@ -14,11 +14,21 @@ draft: true
 ### C#
 ### .NET
 ### JAVA
+  - spring
 ### JS
+  - JavaScript
+  - vue
 ### Android
 ### sql
+  - Oracle
+  - Mysql
+  - sqlite
+  - Mongodb
+  - postgreSQL
+  - 
 ### python
   -  爬虫
+  -  fastapi
 ### 微信机器人
 ### nginx
 
