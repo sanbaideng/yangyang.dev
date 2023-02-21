@@ -1,13 +1,13 @@
-[[main]]
-    name = "Dropdown"
-    weight = 30
-[[main]]
-    parent = "Dropdown"
-    name = "about"
-    url = "posts/about/"
-    weight = 31
-[[main]]
-    parent = "Dropdown"
-    name = "Resume"
-    url = "posts/resume/"
-    weight = 32
+# [[main]]
+#     name = "Dropdown"
+#     weight = 30
+# [[main]]
+#     parent = "Dropdown"
+#     name = "about"
+#     url = "posts/about/"
+#     weight = 31
+# [[main]]
+#     parent = "Dropdown"
+#     name = "Resume"
+#     url = "posts/resume/"
+#     weight = 32
