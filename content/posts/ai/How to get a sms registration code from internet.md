@@ -2,6 +2,7 @@
 title: "how to get a sms registration code from internet"
 date: 2023-02-13T08:27:55+08:00
 draft: false
+tags: ["chatgpt"]
 ---
 
 (注册chatgpt参考： https://foofish.net/how-to-registe-chatGPT.html)

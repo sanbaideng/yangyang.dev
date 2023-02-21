@@ -3,6 +3,8 @@ title: "Some technique for Hugo blog "
 date: 2023-02-16T16:54:14+08:00
 draft: false
 keywords: hugo blog
+
+tags: ["hugo", "blog"]
 ---
 
 ## Some technique for Hugo blog 

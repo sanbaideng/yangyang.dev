@@ -2,6 +2,7 @@
 title: "[Cloud Native] Install Traefik1.7 on CentOS"
 date: 2023-02-20T14:01:39+08:00
 draft: false
+tags: ["k8s"]
 ---
 
 from traefik docment website:

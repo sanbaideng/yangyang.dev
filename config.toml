@@ -47,9 +47,9 @@ pygmentsCodefencesGuessSyntax = true
   name = "yangyang"
   website = "yangyang.dev"
   email = "yangyang2035@google.com"
-  facebook = "username"
+#   facebook = "username"
   github = "sanbaideng"    
-  linkedin = "username"  
+  linkedin = "yang-yang-49b1264a"  
 
 [[menu.main]]
     name = "Blog"

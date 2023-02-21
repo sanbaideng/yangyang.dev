@@ -2,6 +2,8 @@
 title: "subtitle(local) and video(online)  search system"
 date: 2023-02-12T08:30:12+08:00
 draft: false
+tags: ["python", "video"]
+
 ---
 # 视频搜索系统
 

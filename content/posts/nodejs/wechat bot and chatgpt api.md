@@ -2,6 +2,7 @@
 title: "wechat bot and chatgpt api"
 date: 2023-02-16T15:20:12+08:00
 draft: false
+tags: ["nodejs", "wechat"]
 ---
 # 个人微信接入chatgpt
 
