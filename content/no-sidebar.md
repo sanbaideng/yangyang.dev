@@ -1,11 +1,12 @@
 ---
 title: "No Sidebar"
 description: "All content, all the time."
-menu: main
+# menu: main
 weight: 80
 # image: images/banner.jpg
 image_alt: "Hello!"
 tags: ["examples", "content"]
+draft: true
 ---
 Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.

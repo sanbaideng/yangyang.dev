@@ -1,35 +1,35 @@
 ---
-title: "My First Post"
+title: "Resume"
 date: 2023-02-11T06:48:14+08:00
 draft: false
+menu: main
 ---
-
-## Introduction
-
-技术栈：
-### C
-
-### C++
-
-### C#
-### .NET
-### JAVA
+I am a software developer, 
+10 years experiences of software development.
+Experienced in Java, k8s, Linux, and vue.js.
+## 技术栈：
+- C
+- C++
+- C#
+- .NET
+- JAVA
   - spring
-### JS
+- JS
   - JavaScript
   - vue
-### Android
-### sql
+- Android
+- sql
   - Oracle
   - Mysql
   - sqlite
   - Mongodb
   - postgreSQL
   - 
-### python
+- python
   -  爬虫
   -  fastapi
-### 微信机器人
-### nginx
+- wechat bot
+- nginx
+- aliyun cloud\ tencent cloud
 
 

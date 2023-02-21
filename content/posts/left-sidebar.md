@@ -1,12 +1,13 @@
 ---
-title: "Left Sidebar"
+title: "Left Sidebar1"
 description: "Sidebar on the left, content on the right."
-menu: main
+# menu: main
 weight: 50
 # image: images/banner.jpg
 image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
 sidebar_left: sidebar1
+draft: true
 ---
 Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
