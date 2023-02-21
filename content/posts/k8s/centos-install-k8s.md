@@ -1,7 +1,7 @@
 ---
 title: "[Cloud Native] Install K8s on CentOS"
 date: 2023-02-20T13:53:16+08:00
-draft: true
+draft: false
 ---
 
 建议配置docker 加速器
