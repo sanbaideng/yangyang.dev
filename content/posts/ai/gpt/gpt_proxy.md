@@ -29,3 +29,25 @@ forever stop app.js
 rm -f /home/ubuntu/.forever/forever.log
 forever start -l forever.log -o out.log -e err.log app.js 
 ```
+
+
+
+```
+１.查看已经开启的端口
+
+$ sudo ufw status
+
+2.打开端口
+
+$ sudo ufw allow 9123
+
+3.开启防火墙
+
+$ sudo ufw enable
+
+４.重启防火墙
+
+$ sudo ufw reload
+
+5.再次查看一下端口是否已开放
+```
