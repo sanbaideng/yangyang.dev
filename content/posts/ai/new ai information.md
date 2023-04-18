@@ -7,6 +7,8 @@ tags: ["AI"]
 0418
 人人都可拥有的自主性AI：有记忆会使用工具，还会自我学习！底层自研框架即将开源
 https://mp.weixin.qq.com/s/H2Z4GpxfiJIBMJ9glf9Lvg
+多模态MiniGPT-4
+https://github.com/Vision-CAIR/MiniGPT-4
 ---
 0417
 ```
