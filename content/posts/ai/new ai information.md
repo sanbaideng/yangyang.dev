@@ -1,6 +1,6 @@
 ---
 title: "new AI information"
-date: 2023-04-18T08:52:55+08:00
+date: 2023-04-20T08:52:55+08:00
 draft: false
 tags: ["AI"]
 ---
