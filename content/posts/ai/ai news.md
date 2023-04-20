@@ -1,5 +1,5 @@
 ---
-title: "new AI information"
+title: "AI/tech news"
 date: 2023-04-20T07:40:55+08:00
 draft: false
 tags: ["AI"]
