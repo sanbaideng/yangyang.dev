@@ -4,6 +4,9 @@ date: 2023-04-20T07:40:55+08:00
 draft: false
 tags: ["AI"]
 ---
+0426
+https://www.futuretools.io/news
+---
 0419
 ```
 如何 10 分钟上线一个 AI 导航网站？[vervel]
