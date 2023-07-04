@@ -1,6 +1,6 @@
 ---
 title: "Clone big repo in gitlab by ssh"
-date: 2023-06-28T09:54:12+08:00
+date: 2023-07-04T09:54:12+08:00
 draft: false
 tags: ["code review"]
 
