@@ -6,9 +6,10 @@ tags: ["code review"]
 
 ---
 1. Generating a new SSH key pair  生成ssh key
-http://gitlab.test/help/ssh/README#locating-an-existing-ssh-key-pair
+    > http://gitlab.test/help/ssh/README#locating-an-existing-ssh-key-pair
 
-https://docs.gitlab.com/ee/user/ssh.html
+    > https://docs.gitlab.com/ee/user/ssh.html
+
 ```ssh-keygen -o -t rsa -C "your.email@example.com" -b 4096```
 
 2. Add SSH Keys (public key) in User Settings. 在用户设置中配置ssh keys 公钥
