@@ -10,7 +10,7 @@ tags: ["code review"]
 
     > https://docs.gitlab.com/ee/user/ssh.html
 
-```ssh-keygen -o -t rsa -C "your.email@example.com" -b 4096```
+    ```ssh-keygen -o -t rsa -C "your.email@example.com" -b 4096```
 
 2. Add SSH Keys (public key) in User Settings. 在用户设置中配置ssh keys 公钥
 
