@@ -6,7 +6,9 @@ tags: ["code review"]
 
 ---
 1. Generating a new SSH key pair  生成ssh key
-http://gitlab.cecii.inside/help/ssh/README#locating-an-existing-ssh-key-pair
+http://gitlab.test/help/ssh/README#locating-an-existing-ssh-key-pair
+
+https://docs.gitlab.com/ee/user/ssh.html
 ```ssh-keygen -o -t rsa -C "your.email@example.com" -b 4096```
 
 2. Add SSH Keys (public key) in User Settings. 在用户设置中配置ssh keys 公钥
@@ -22,4 +24,3 @@ http://gitlab.cecii.inside/help/ssh/README#locating-an-existing-ssh-key-pair
 5. Then clone:
    ```  git clone git@gitlab.test:relative/repo.git```
 
-   
