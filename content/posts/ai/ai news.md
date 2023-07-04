@@ -4,6 +4,10 @@ date: 2023-04-20T07:40:55+08:00
 draft: false
 tags: ["AI"]
 ---
+
+0509
+https://sudoapps.substack.com/p/giving-gpt-infinite-knowledge
+
 0426
 https://www.futuretools.io/news
 ---
