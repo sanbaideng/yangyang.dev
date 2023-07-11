@@ -4,8 +4,7 @@ date: 2023-07-11T13:31:58+08:00
 draft: false
 tags: ["IELTS"]
 ---
-COPY FROM 
- > https://github.com/fanhongtao/IELTS/blob/master/IELTS%20Word%20List.txt
+COPY FROM [HERE](https://github.com/fanhongtao/IELTS/blob/master/IELTS%20Word%20List.txt)
 ## Word List 01
 - emperor   /ˈempərə(r)/ n. 皇帝；君主
 - exact*    /ɪgˈzækt/    a. 精确的；准确的
