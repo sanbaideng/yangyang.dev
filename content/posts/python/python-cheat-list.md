@@ -58,3 +58,26 @@ now_time = datetime.datetime.now()
 if now_time.hour<=12:
     print('当前时间小于12点')
 ```
+## python string转json
+```
+import json
+jsondata = json.loads(jsonstr)
+```
+## python 读取txt文件
+用with语句控制文件打开，结束会自动关闭文件，可以省略掉f.close()这一步。
+```
+#1. read（）方法表示一次读取文件全部内容，该方法返回字符串。
+with open("1.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+#2. readline（）方法 该方法每次读出一行内容，所以，读取时占用内存小，比较适合大文件，该方法返回一个字符串对象。
+with open("test.txt", "r") as f:
+    data = f.readline()
+    print(data)
+
+#3. readlines（）方法 该方法读取整个文件所有行，保存在一个列表(list)变量中，每次读取一行，但读取大文件会比较占内存。
+with open("test.txt", "r") as f:
+    data = f.readlines()
+    print(data)
+```
