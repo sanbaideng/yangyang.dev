@@ -1,5 +1,5 @@
 ---
-title: "how to stay poor"
+title: "how to get rich"
 date: 2023-08-20T08:11:12+08:00
 draft: false
 tags: ["daily"]
