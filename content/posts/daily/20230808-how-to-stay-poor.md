@@ -1,6 +1,6 @@
 ---
 title: "how to stay poor"
-date: 2023-08-20T08:11:12+08:00
+date: 2023-08-08T08:11:12+08:00
 draft: false
 tags: ["daily"]
 
