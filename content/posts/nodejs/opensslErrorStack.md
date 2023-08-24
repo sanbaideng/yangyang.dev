@@ -4,9 +4,11 @@ date: 2023-08-24T15:20:12+08:00
 draft: false
 tags: ["nodejs", "error info"]
 ---
-# npm install error:opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ]
+# npm install error opensslErrorStack
+- npm install error:opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ]
 
-//https://stackoverflow.com/questions/74726224/opensslerrorstack-error03000086digital-envelope-routinesinitialization-e
+[原答案](https://stackoverflow.com/questions/74726224/opensslerrorstack-error03000086digital-envelope-routinesinitialization-e)
+
 切换到node v18的时候，npm install 出现如下错误
 ```
  {
