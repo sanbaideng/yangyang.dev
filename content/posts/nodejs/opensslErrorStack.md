@@ -1,6 +1,6 @@
 ---
 title: "npm install error:opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ]"
-date: 2023-08-05T17:20:12+08:00
+date: 2023-08-24T15:20:12+08:00
 draft: false
 tags: ["nodejs", "error info"]
 ---
