@@ -43,7 +43,7 @@ if (StringUtils.isNotBlank(sqlString.toString()))
 if (StringUtils.isNotNull(params) && params instanceof BaseEntity)
 
 //则在参数类的属性params.dataScope赋值sqlString
-
+baseEntity.getParams().put(DATA_SCOPE, " AND (" + sqlString.substring(4) + ")");
 
 ```
 
