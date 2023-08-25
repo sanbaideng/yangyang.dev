@@ -4,10 +4,9 @@ date: 2023-08-25T10:39:58+08:00
 draft: false
 tags: ["springboot","ruoyi"]
 ---
-
 # 若依框架 权限范围dataScope概览
 
-- TLDR;切面+注解+mybatis定位符(对应三个文件DataScopeAspect.java,SysUserServiceImpl.java,SysUserMapper.xml 、BaseEntity.java中的params.dataScope属性)
+- TLDR;切面+注解+mybatis定位符(对应4个文件DataScopeAspect.java,SysUserServiceImpl.java,SysUserMapper.xml 以及BaseEntity.java中的params.dataScope属性)
 
 ## 0.BaseEntity类中有属性params，里面可以放需要注入的sql
 ```
@@ -15,7 +14,7 @@ tags: ["springboot","ruoyi"]
 ```
 
 ## 1.DataScopeAspect定义切面
-DataScopeAspect类，定义了五种权限范围，
+DataScopeAspect类，定义了五种权限范围，对应角色的数据权限分配方式
 ```
 DATA_SCOPE_ALL = "1"             //全部数据权限
 DATA_SCOPE_CUSTOM = "2";         //自定数据权限
@@ -47,7 +46,7 @@ baseEntity.getParams().put(DATA_SCOPE, " AND (" + sqlString.substring(4) + ")");
 
 ```
 
-## 2.SysUserServiceImpl注解
+## 2.SysUserServiceImpl中selectUserList方法写注解
 ```
     @Override
     @DataScope(deptAlias = "d", userAlias = "u")
@@ -57,9 +56,9 @@ baseEntity.getParams().put(DATA_SCOPE, " AND (" + sqlString.substring(4) + ")");
     }
 ```
 
-## 3.SysUserMapper.xml中在合适的位置写入 ${params.dataScope}
+## 3.SysUserMapper.xml中在selectUserList合适的位置写入 ${params.dataScope}
 
-- 什么叫合适的位置
+- 什么叫合适的位置？
   插入的语句是and 条件语句，所以需要在where和order by等之间，不然sql运行会报错。
 ```
 <select id="selectUserList" parameterType="SysUser" resultMap="SysUserResult">
@@ -76,6 +75,6 @@ baseEntity.getParams().put(DATA_SCOPE, " AND (" + sqlString.substring(4) + ")");
 
 
 总结：
-关键点：
+
 - 1.是mybatis中，标记好需要追加的位置；
 - 2.在方法注解中 标明sys_dept,sys_user的别名(在DataScopeAspect中拼接sqlString时要用到)
