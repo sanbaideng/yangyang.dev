@@ -12,7 +12,7 @@ tags: ["js补环境"]
 		document.onkeydown = function(){
 
 	    if(window.event && window.event.keyCode == 123) {
-	        alert("Hi,欢迎来到果汁！");
+	        alert("Hi,欢迎来到xx！");
 	        event.keyCode=0;
 	        event.returnValue=false;
 	    }
