@@ -1,3 +1,9 @@
+---
+title: "若依权限范围"
+date: 2023-10-10T10:19:58+08:00
+draft: false
+tags: ["springboot","ruoyi"]
+---
 ## 若依框架前后端分离版部署到子路径上时的操作流程
 
 ## 1.根域名nginx域名配置路径/marketing
