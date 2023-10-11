@@ -1,5 +1,5 @@
 ---
-title: "# Wordpress use rest Api post Articals 用rest api 推送文章到wordpress"
+title: "Wordpress use rest Api post Articals 用rest api 推送文章到wordpress"
 date: 2023-10-11T11:26:58+08:00
 draft: false
 tags: ["wordpress","rest api"]
