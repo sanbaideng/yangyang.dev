@@ -6,6 +6,9 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
@@ -89,3 +92,12 @@ pygmentsCodefencesGuessSyntax = true
     name = "Tags"
     url = "tags"
     weight = 60
+[languages]
+  [languages.zh] 
+    contentDir = "content" # English
+  [languages.en] 
+    contentDir = "content/en" # English
+  [languages.ja]
+    contentDir = "content/ja" # Japanese
+  [languages.br]
+    contentDir = "content/br" # Brazilian Portuguese

@@ -4,7 +4,7 @@ date: 2023-02-20T14:01:39+08:00
 draft: false
 tags: ["k8s"]
 ---
-
+# Install Traefik1.7 on CentOS
 from traefik docment website:
 kubectl apply -f https://raw.githubusercontent.com/containous/traefik/v1.7/examples/k8s/traefik-rbac.yaml
 kubectl apply -f https://raw.githubusercontent.com/containous/traefik/v1.7/examples/k8s/traefik-ds.yaml

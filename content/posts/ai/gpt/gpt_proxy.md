@@ -11,6 +11,7 @@ so we need to create a proxy to visit the openai api.
 
 1.aws lightsail server
 2.create a ubuntu server Ubuntu 20.04 LTS
+
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
 sudo apt update

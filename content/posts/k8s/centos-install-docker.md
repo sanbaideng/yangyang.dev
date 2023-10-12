@@ -5,7 +5,7 @@ draft: false
 tags: ["k8s"]
 ---
 
-centos安装docker
+# centos安装docker
 
 ```
 sudo yum install -y yum-utils \
@@ -13,7 +13,7 @@ device-mapper-persistent-data \
 lvm2
 ```
 
-添加阿里云源
+## 添加阿里云源
 ```
 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 
 ```
@@ -24,7 +24,7 @@ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/d
 yum -y install yum-utils 
 ```
 
-列出列表：
+##  列出列表：
 yum list docker --showduplicates |sort -r
 yum -v list docker-ce --show-duplicates
 安装18.06版本 
@@ -35,7 +35,7 @@ systemctl start docker
 ```
 
 
-docker 设置代理
+## docker 设置代理
 10.在为docker设置代理，完成后， 测试命令：docker pull k8s.gcr.io/kube-proxy:v1.12.2
 10.1
 ``` 

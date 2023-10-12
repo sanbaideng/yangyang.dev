@@ -4,6 +4,7 @@ date: 2023-02-20T13:53:16+08:00
 draft: false
 tags: ["k8s"]
 ---
+# Install K8s on CentOS
 
 建议配置docker 加速器
 

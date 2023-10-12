@@ -4,6 +4,8 @@ date: 2023-02-20T14:04:44+08:00
 draft: false
 tags: ["k8s"]
 ---
+# Install Helm2.x on CentOS
+
 What Is Helm?
 
     Helm is a tool to help you define, install, and upgrade applications running on Kubernetes. 

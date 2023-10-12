@@ -6,7 +6,7 @@ tags: ["springboot","ruoyi"]
 ---
 # 若依框架 权限范围dataScope概览
 
-- TLDR;切面+注解+mybatis定位符(对应4个文件DataScopeAspect.java,SysUserServiceImpl.java,SysUserMapper.xml 以及BaseEntity.java中的params.dataScope属性)
+- TLDR;切面+注解+mybatis定位符(对应4个文件DataScopeAspect.java,SysUserServiceImpl.java,SysUserMapper.xml 以及BaseEntity.java中的params.dataScope属性) ps: 若依官网：https://ruoyi.vip/
 
 ## 0.BaseEntity类中有属性params，里面可以放需要注入的sql
 ```
