@@ -12,7 +12,8 @@ intro: |
     A visual cheat-sheet for the 36 keyboard shortcuts found in Airtable
 ---
 
-
+# Airtable cheat sheet 
+A visual cheat-sheet for the 36 keyboard shortcuts found in Airtable
 
 Keyboard Shortcuts
 ------------------

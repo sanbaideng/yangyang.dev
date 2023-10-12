@@ -11,6 +11,8 @@ categories:
   - Other
 intro: This is a quick reference list of cheat sheets for the AI Navigation Directory, designed to help you discover exciting AI tools.
 ---
+# AI Directory
+This is a quick reference list of cheat sheets for the AI Navigation Directory, designed to help you discover exciting AI tools.
 
 Getting Started
 ---------------

@@ -12,7 +12,8 @@ intro: |
     A visual cheat-sheet for the 177 keyboard shortcuts found in Affinity Photo
 ---
 
-
+# Affinity Photo
+A visual cheat-sheet for the 177 keyboard shortcuts found in Affinity Photo
 
 Keyboard Shortcuts
 ------------------

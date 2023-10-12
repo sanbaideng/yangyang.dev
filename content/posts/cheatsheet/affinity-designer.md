@@ -12,8 +12,8 @@ intro: |
     A visual cheat-sheet for the 108 keyboard shortcuts found in Affinity Designer
 ---
 
-
-
+# Affinity Designer cheat sheet
+A visual cheat-sheet for the 108 keyboard shortcuts found in Affinity Designer
 Keyboard Shortcuts
 ------------------
 

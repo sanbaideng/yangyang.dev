@@ -1,18 +1,11 @@
 ---
 title: Adobe XD
 date: 2022-11-23 16:23:31.703379
-background: bg-[#400835]
-label: 
-tags: 
-    - 
-    - 
-categories:
-    - Keyboard Shortcuts
-intro: |
-    A visual cheat-sheet for the 97 keyboard shortcuts found in Adobe XD
+tags: ["cheat sheet","Keyboard Shortcuts"] 
 ---
+# Adobe XD cheat sheet
 
-
+A visual cheat-sheet for the 97 keyboard shortcuts found in Adobe XD
 
 Keyboard Shortcuts
 ------------------
