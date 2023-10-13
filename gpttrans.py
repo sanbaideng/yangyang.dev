@@ -6,7 +6,7 @@ import os
 
 # 读取 markdown 文件
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "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"
 prompt_format_system = "你是一个翻译专家，SEO专家，我将给你一篇Markdown格式的博客，请将博客翻译成{}，可以适当扩充、润色内容，代码片段不用翻译，代码中的注释可以翻译，请添加相关SEO友好的标题 h1,h2等，内容如下:"
 
 #br,de,dk,en,eo,es,fr,hr,it,ja,ko,lmo,nb,nl,pl,ru,tr,zh-CN,zh-TW
@@ -67,11 +67,17 @@ def onefiletest(file_path):
                 message.append({"role": "user", "content": data})
                 print(message)
                 newpath = create_new_lang_folder(file_path,k)
-
+                filename = os.path.basename(file_path)
 
                 chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=message)
                 print(chat_completion.choices[0].message.content)
+                content_after_trans = chat_completion.choices[0].message.content
 
+                print('写文件',newpath+filename)
+                f = open(newpath+filename, "w",encoding='utf-8')
+                f.write(content_after_trans)
+
+                f.close()
 def create_new_lang_folder(file_path,lang_shortname):
     last_index_of_slant = file_path.rfind('/')
     oldpath = file_path[0:last_index_of_slant]
@@ -87,7 +93,7 @@ def create_new_lang_folder(file_path,lang_shortname):
         os.makedirs(newpath)
     return newpath+'/'
 
-# onefiletest('content/posts/ai/copilot.md')                 
+onefiletest('content/posts/ai/gpt/gpt_proxy.md')                 
         
 
 def get_trans(msg,language):
@@ -106,7 +112,7 @@ def get_trans(msg,language):
 
 def puretest():
         
-    chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "system", "content": "你是一个翻译专家，SEO专家，我将给你一篇Markdown格式的博客，请将博客翻译成巴西语，可以适当扩充、润色内容，添加相关SEO友好的标题，如下内容"},
+    chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "system", "content": "你是一个翻译专家，SEO专家，我将给你一篇Markdown格式的博客，请将博客翻译成巴西语，可以适当扩充、润色内容，添加相关SEO友好的标题，tag中的内容不翻译"},
                                                                                     {"role": "user", "content": '''
     ---
     title: "how to use copilot"
@@ -138,4 +144,4 @@ def puretest():
                                                                                                                                     }])
     print(chat_completion.choices[0].message.content)
 
-puretest()    
+# puretest()    

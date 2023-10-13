@@ -13,7 +13,10 @@ defaultContentLanguageInSubdir = false
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
-
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
 [Params]
   selfHosted = true
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
