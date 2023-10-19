@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = false
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "G-50YQMVG02W"
 [sitemap]
   changeFreq = ''
   filename = 'sitemap.xml'
