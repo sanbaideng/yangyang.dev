@@ -100,7 +100,7 @@ defaultContentLanguageInSubdir = false
     contentDir = "content" # English
   [languages.en] 
     contentDir = "content/en" # English
-  [languages.ja]
-    contentDir = "content/ja" # Japanese
-  [languages.br]
-    contentDir = "content/br" # Brazilian Portuguese
+  [languages.ru]
+    contentDir = "content/ru" # Brazilian Portuguese
+  [languages.id]
+    contentDir = "content/id" # Brazilian Portuguese
