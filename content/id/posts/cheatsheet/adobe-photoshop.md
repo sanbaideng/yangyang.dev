@@ -1,6 +1,6 @@
 ---
-Judul: Adobe Photoshop
-tanggal: 2022-11-23 16:23:31.706034
+title: Adobe Photoshop
+date: 2022-11-23 16:23:31.706034
 Tag: ["lembar contekan", "Pintasan Keyboard"]
 ---
 # Lembar contekan Adobe Photoshop

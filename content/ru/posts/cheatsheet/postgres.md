@@ -1,12 +1,12 @@
 ---
-название: PostgreSQL
+title: PostgreSQL
 фон: bg-[#3d6488]
 теги:
     - БД
     - РСУБД
 категории:
   - Базы данных
-дата: 2021-01-11 14:19:24
+date: 2021-01-11 14:19:24
 intro: |
     Шпаргалка [PostgreSQL](https://www.postgresql.org/docs/current/) знакомит с общими командами и операторами PostgreSQL.
 плагины:

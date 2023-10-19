@@ -1,5 +1,5 @@
 ---
-judul: "cara menggunakan kopilot"
+title: "cara menggunakan kopilot"
 date: 2023-03-13T10:04:55+08:00
 draft: false
 tags: ["copilot", "AI"]

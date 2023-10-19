@@ -1,6 +1,6 @@
 ---
-judul: Emoji
-tanggal: 2020-12-15 18:28:43
+title: Emoji
+date: 2020-12-15 18:28:43
 latar belakang: bg-[#ebbe46]
 tag:
 kategori:

@@ -576,7 +576,7 @@ done
 
 ### Continue
 
-```bash {data=3,5}
+```bash
 for number in $(seq 1 3); do
     if [[ $number == 2 ]]; then
         continue;

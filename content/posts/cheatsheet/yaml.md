@@ -44,7 +44,7 @@ b: false         # boolean type
 d: 2015-04-05    # date type
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "n1": 1,
   "n2": 1.234,
@@ -64,7 +64,7 @@ some_thing: &VAR_NAME foobar
 other_thing: *VAR_NAME
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "some_thing": "foobar",
   "other_thing": "foobar"
@@ -93,7 +93,7 @@ description: |
   world
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {"description": "hello\nworld\n"}
 ```
 
@@ -110,7 +110,7 @@ child:
   b: 4
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "parent": {
     "a": 2,
@@ -135,7 +135,7 @@ other_values:
   i_am_ref: *ref
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "values": [
     "Will be",
@@ -158,7 +158,7 @@ description: >
   world
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {"description": "hello world\n"}
 ```
 
@@ -188,7 +188,7 @@ YAML Collections
 - Ken Griffey
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 [
   "Mark McGwire",
   "Sammy Sosa",
@@ -204,7 +204,7 @@ avg: 0.278    # Batting average
 rbi: 147      # Runs Batted In
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "hr": 65,
   "avg": 0.278,
@@ -222,7 +222,7 @@ attributes:
 methods: [getter, setter]
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "attributes": ["a1", "a2"],
   "methods": ["getter", "setter"]
@@ -245,7 +245,7 @@ children:
     age: 12
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "children": [
     {"name": "Jimmy Smith", "age": 15},
@@ -268,7 +268,7 @@ my_sequences:
     - 0 
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "my_sequences": [
     [1, 2, 3],
@@ -288,7 +288,7 @@ Sammy Sosa: {
   }
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "Mark McGwire": {
     "hr": 65,
@@ -315,7 +315,7 @@ Jack:
   location: {country: "A", city: "A-A"}
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "Jack": {
     "id": 1,
@@ -338,7 +338,7 @@ set1: !!set
 set2: !!set {'one', "two"}
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "set1": {"one": null, "two": null},
   "set2": {"one": null, "two": null}
@@ -355,7 +355,7 @@ ordered: !!omap
 - Ken Griffy: 58
 ```
 #### ↓ Equivalent JSON
-```json {.wrap}
+```json
 {
   "ordered": [
      {"Mark McGwire": 65},

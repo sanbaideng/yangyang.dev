@@ -1,6 +1,6 @@
 ---
-название: Apex Legends
-дата: 2022-11-23 16:23:31.706352
+title: Apex Legends
+date: 2022-11-23 16:23:31.706352
 background: bg-[#a74145]
 label:
 tags:

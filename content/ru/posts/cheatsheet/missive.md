@@ -1,6 +1,6 @@
 ---
-Название: Missive
-дата: 2022-11-23 16:23:31.695283
+title: Missive
+date: 2022-11-23 16:23:31.695283
 background: bg-[#3665e5]
 label:
 tags:

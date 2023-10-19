@@ -1,6 +1,6 @@
 ---
-Название: Google Drive
-дата: 2022-11-23 16:23:31.701360
+title: Google Drive
+date: 2022-11-23 16:23:31.701360
 background: bg-[#479b61]
 label:
 tags:

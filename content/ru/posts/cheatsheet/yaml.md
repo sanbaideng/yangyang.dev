@@ -1,6 +1,6 @@
 ---
-Название: YAML
-дата: 2020-12-29 18:26:55
+title: YAML
+date: 2020-12-29 18:26:55
 фон: bg-[#b42e28]
 теги:
    - config
@@ -44,7 +44,7 @@ b: false # тип boolean
 d: 2015-04-05 # тип даты
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "n1": 1,
   "n2": 1.234,
@@ -64,7 +64,7 @@ some_thing: &VAR_NAME foobar
 other_thing: *VAR_NAME
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "some_thing": "foobar",
   "other_thing": "foobar"
@@ -93,7 +93,7 @@ other_thing: *VAR_NAME
   мир
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {"description": "hello\nworld\n"}
 ```
 
@@ -110,7 +110,7 @@ other_thing: *VAR_NAME
   b: 4
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "parent": {
     "a": 2,
@@ -135,7 +135,7 @@ other_values:
   i_am_ref: *ref
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "values": [
     "Будет",
@@ -158,7 +158,7 @@ other_values:
   мир
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {"description": "hello world\n"}
 ```
 
@@ -188,7 +188,7 @@ other_values:
 - Кен Гриффи
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 [
   "Марк Макгвайр",
   "Сэмми Соса",
@@ -204,7 +204,7 @@ avg: 0.278 # Batting average
 rbi: 147 # Runs Batted In
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "hr": 65,
   "avg": 0.278,
@@ -222,7 +222,7 @@ rbi: 147 # Runs Batted In
 методы: [getter, setter]
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "attributes": ["a1", "a2"],
   "methods": ["getter", "setter"]
@@ -245,7 +245,7 @@ rbi: 147 # Runs Batted In
     возраст: 12
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "children": [
     { "name": "Джимми Смит", "возраст": 15},
@@ -268,7 +268,7 @@ my_sequences:
     - 0
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "my_sequences": [
     [1, 2, 3],
@@ -288,7 +288,7 @@ my_sequences:
   }
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "Mark McGwire": {
     "hr": 65,
@@ -315,7 +315,7 @@ my_sequences:
   местоположение: {country: "A", город: "A-A"}
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "Jack": {
     "id": 1,
@@ -338,7 +338,7 @@ set1: !!! set
 set2: !!!set {"один", "два"}
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "set1": {"1": null, "2": null},
   "set2": { "1": null, "2": null}
@@ -355,7 +355,7 @@ set2: !!!set {"один", "два"}
 - Кен Гриффи: 58
 ```
 #### ↓ Эквивалентный JSON
-``json {.wrap}
+``json
 {
   "ordered": [
      { "Марк Макгвайр": 65},

@@ -1,6 +1,6 @@
 ---
-Название: IntelliJ IDEA
-дата: 2020-12-17 21:51:44
+title: IntelliJ IDEA
+date: 2020-12-17 21:51:44
 background: bg-gradient-to-r from-pink-500 via-violet-400 to-blue-400 hover:from-pink-700 hover:via-violet-600 hover:to-blue-500
 теги:
     - jetbrains

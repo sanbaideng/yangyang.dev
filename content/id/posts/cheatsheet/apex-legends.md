@@ -1,6 +1,6 @@
 ---
-Judul: Legenda Apex
-tanggal: 2022-11-23 16:23:31.706352
+title: Legenda Apex
+date: 2022-11-23 16:23:31.706352
 latar belakang: bg-[#a74145]
 label:
 tag:

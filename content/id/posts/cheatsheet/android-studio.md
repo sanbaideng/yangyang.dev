@@ -1,6 +1,6 @@
 ---
-Judul: Studio Android
-tanggal: 2022-11-23 16:23:31.704217
+title: Studio Android
+date: 2022-11-23 16:23:31.704217
 latar belakang: bg-[#6bd488]
 label:
 tag:

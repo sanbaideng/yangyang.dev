@@ -1,4 +1,9 @@
---- title: "[Cloud Native] Install Helm2.x on CentOS" date: 2023-02-20T14:04:44+08:00 draft: false tags: ["k8s"] --- # Установка Helm2.x на CentOS
+--- 
+title: "[Cloud Native] Install Helm2.x on CentOS" 
+date: 2023-02-20T14:04:44+08:00
+tags: ["k8s"] 
+--- 
+# Установка Helm2.x на CentOS
 
 Что такое Helm?
 

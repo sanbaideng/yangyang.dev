@@ -1,6 +1,6 @@
 ---
-judul: Bitbucket
-tanggal: 2022-11-23 16:23:31.699805
+title: Bitbucket
+date: 2022-11-23 16:23:31.699805
 latar belakang: bg-[#4382f7]
 label:
 tag:

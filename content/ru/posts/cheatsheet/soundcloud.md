@@ -1,6 +1,6 @@
 ---
-Название: SoundCloud
-дата: 2022-11-23 16:23:31.705804
+title: SoundCloud
+date: 2022-11-23 16:23:31.705804
 background: bg-[#ec622b]
 label:
 tags:

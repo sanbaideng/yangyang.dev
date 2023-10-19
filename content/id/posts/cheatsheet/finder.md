@@ -1,6 +1,6 @@
 ---
-judul: Pencari
-tanggal: 2022-11-23 16:23:31.693285
+title: Pencari
+date: 2022-11-23 16:23:31.693285
 latar belakang: bg-[#4b9be8]
 label: Mac
 Tag:

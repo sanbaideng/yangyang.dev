@@ -1,7 +1,6 @@
 ---
 title: "nodejs error infos"
 date: 2023-08-05T17:20:12+08:00
-черновик: false
 tags: ["nodejs", "error info"]
 ---
 # React Native Error: ENOSPC: System limit for number of file watchers reached

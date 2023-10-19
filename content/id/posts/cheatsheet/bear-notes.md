@@ -1,6 +1,6 @@
 ---
-judul: Beruang
-tanggal: 2022-11-23 16:23:31.705436
+title: Beruang
+date: 2022-11-23 16:23:31.705436
 latar belakang: bg-[#cd5654]
 label: Mac
 Tag:

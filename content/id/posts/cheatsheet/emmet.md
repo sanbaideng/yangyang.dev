@@ -1,6 +1,6 @@
 ---
-Judul: Emmet
-tanggal: 2020-12-14 18:28:43
+title: Emmet
+date: 2020-12-14 18:28:43
 latar belakang: bg-[#95c844]
 tags:
     - cuplikan

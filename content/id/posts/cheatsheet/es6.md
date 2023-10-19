@@ -1,20 +1,12 @@
 ---
-Judul: ES6
-tanggal: 2023-01-08 18:26:55
-latar belakang: bg-[#edc545]
-tags:
-   - config
-   - format
-kategori:
-   - Pemrograman
-intro: |
-    Lembar contekan referensi singkat tentang apa yang baru dalam JavaScript untuk ES2015, ES2016, ES2017, ES2018, dan seterusnya
-pengaya:
-    - copyCode
+title: ES6
+date: 2023-01-08 18:26:55
+tag: ["ES6"]
 ---
 
 
-Memulai
+# ES6
+Lembar contekan referensi singkat tentang apa yang baru dalam JavaScript untuk ES2015, ES2016, ES2017, ES2018, dan seterusnya
 --------
 
 
@@ -25,7 +17,7 @@ Memulai
 
 #### Biarkan
 
-```js{2,4}
+```js
 fungsi fn () {
   let x = 0
   if (true) {
@@ -86,7 +78,7 @@ Lihat: [Biner dan Oktal Literal](https://babeljs.io/learn-es2015/#binary-and-oct
 
 ### Operator Eksponensial
 
-```js {1}
+```js
 const byte = 2 **8
 ```
 
@@ -154,7 +146,7 @@ class Lingkaran extends Bentuk {
 
 #### Konstruktor
 
-```js {1}
+```js
 konstruktor (radius) {
   this.radius = radius
 }
@@ -164,7 +156,7 @@ konstruktor (radius) {
 
 #### metode
 
-```js {1}
+```js
 getArea () {
   return Math.PI * 2 * this.radius
 }
@@ -174,7 +166,7 @@ getArea () {
 
 #### Panggil metode superclass
 
-```js {2}
+```js
 expand(n) {
   return super.expand(n) *Math.PI
 }
@@ -184,7 +176,7 @@ expand(n) {
 
 #### Metode statis
 
-```js {1}
+```js
 static createFromDiameter(diameter) {
   return new Circle(diameter /2)
 }
@@ -239,7 +231,7 @@ Janji
 
 ### membuat komitmen
 
-```js {1}
+```js
 new Promise((resolve, reject) => {
   if (ok) { resolve(hasil) }
   else { tolak (error) }
@@ -253,7 +245,7 @@ Lihat: [Janji-janji](https://babeljs.io/learn-es2015/#promises)
 
 ### Menggunakan Janji
 
-```js{2,3}
+```js
 promise
   .then((hasil) => { --- })
   .catch((error) => { --- })
@@ -263,7 +255,7 @@ promise
 
 ### Menggunakan Janji dalam akhirnya
 
-```js {4}
+```js
 promise
   .then((hasil) => { --- })
   .catch((error) => { --- })
@@ -289,7 +281,7 @@ Promise.resolve(---)
 
 ### Async-tunggu
 
-```js{2,3}
+```js
 fungsi asinkronisasi run () {
   const user = await getUser()
   const tweets = await getTweets(user)
@@ -313,7 +305,7 @@ Penghancuran
 
 #### Array
 
-```js {1}
+```js
 const [first, last] = ['Nikola', 'Tesla']
 ```
 
@@ -321,9 +313,9 @@ const [first, last] = ['Nikola', 'Tesla']
 
 #### Objek
 
-```js {1}
+```js
 let {judul, penulis} = {
-  judul: 'Ulat Sutra',
+  title: 'Ulat Sutra',
   penulis: 'R. Galbraith'
 }
 ```
@@ -353,7 +345,7 @@ Nilai default dapat ditetapkan saat mendestrukturisasi larik atau objek
 
 ### Parameter fungsi
 
-```js {1}
+```js
 function menyapa({ nama, salam }) {
   console.log(`${salam}, ${nama}!`)
 }
@@ -371,7 +363,7 @@ Destrukturisasi objek dan larik juga dapat dilakukan dalam parameter fungsi
 
 ### Default
 
-```js {1}
+```js
 function menyapa({ nama = 'Rauno' } = {}) {
   console.log(`Hai ${nama}!`);
 }
@@ -388,7 +380,7 @@ greet({ name: 'Larry' }) // Hai Larry!
 
 ### Menetapkan ulang kunci
 
-```js {1}
+```js
 function printCoordinates({ left: x, top: y }) {
   console.log(`x: ${x}, y: ${y}`)
 }
@@ -406,7 +398,7 @@ Contoh ini menetapkan `x` ke nilai kunci `kiri`
 
 ### Perulangan
 
-```js {1}
+```js
 for (let {judul, artis} dari lagu) {
   ---
 }
@@ -418,7 +410,7 @@ Ekspresi penugasan juga berfungsi dalam perulangan
 
 ### Dekonstruksi Objek
 
-```js {1}
+```js
 const { id, ... detail } = lagu;
 ```
 
@@ -435,7 +427,7 @@ Operator Penyebaran Penyebaran
 
 #### dengan ekstensi objek
 
-```js {2}
+```js
 const options = {
   ... default,
   visible: true
@@ -463,7 +455,7 @@ Lihat: [Penyebaran Objek](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 #### dengan ekstensi larik
 
-```js{2,3}
+```js
 const users = [
   ... admin,
   ... editor,
@@ -495,7 +487,7 @@ Fungsi
 
 #### Parameter default
 
-```js {1}
+```js
 function menyapa (nama = 'Jerry') {
   return `Halo ${nama}`
 }
@@ -505,7 +497,7 @@ function menyapa (nama = 'Jerry') {
 
 #### Parameter istirahat
 
-```js {1}
+```js
 function fn(x, ... y) {
   // y adalah sebuah array
   return x * y.length
@@ -516,7 +508,7 @@ function fn(x, ... y) {
 
 #### Ekstensi
 
-```js {1}
+```js
 fn(...[1, 2, 3])
 //sama seperti fn(1, 2, 3)
 ```
@@ -532,7 +524,7 @@ Lihat: [parameter fungsi](https://babeljs.io/learn-es2015/#default--rest--spread
 
 #### Fungsi panah
 
-```js {1}
+```js
 setTimeout(() => {
   ---
 })
@@ -542,7 +534,7 @@ setTimeout(() => {
 
 #### dengan parameter
 
-```js {1}
+```js
 readFile('text.txt', (err, data) => {
   ...
 })
@@ -551,7 +543,7 @@ readFile('text.txt', (err, data) => {
 
 
 #### pengembalian implisit
-```js{1,4,5,6}
+```js
 arr.map(n => n*2)
 //tidak ada kurung kurawal = pengembalian implisit
 //Sama seperti: arr.map(function (n) { return n*2 })
@@ -633,7 +625,7 @@ Lihat: [Objek Literal yang Disempurnakan](https://babeljs.io/learn-es2015/#enhan
 
 Metode ###
 
-```js {2}
+```js
 const App = {
   start () {
     console.log('running')
@@ -648,7 +640,7 @@ Lihat: [Literal Objek yang Disempurnakan](https://babeljs.io/learn-es2015/#enhan
 
 ### Pengambil dan pengatur
 
-```js{2,5}
+```js
 const App = {
   get closed () {
     return this.status === 'closed'
@@ -665,7 +657,7 @@ Lihat: [Objek Literal yang Disempurnakan](https://babeljs.io/learn-es2015/#enhan
 
 ### Nama properti yang dihitung
 
-```js {3}
+```js
 let event = 'klik'
 let handlers = {
   [`on${event}`]: true
@@ -679,7 +671,7 @@ Lihat: [Object Literals yang Disempurnakan](https://babeljs.io/learn-es2015/#enh
 
 ### Ekstrak nilai
 
-```js{3,5}
+```js
 const fatherJS = { umur: 57, nama: "Zhang San" }
 Object.values(fatherJS)
 //[57, "Zhang San"]
@@ -775,7 +767,7 @@ Lihat: [Module exports](https://babeljs.io/learn-es2015/#modules)
 
 ### Penggantian nama kata kunci `as`
 
-```js{2,8,12-14}
+```js
 import {
   nama_akhir sebagai nama keluarga // import ganti nama
 } from './profile.js';

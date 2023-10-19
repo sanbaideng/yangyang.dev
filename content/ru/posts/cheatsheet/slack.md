@@ -1,6 +1,6 @@
 ---
-Название: Slack
-дата: 2022-11-23 16:23:31.705147
+title: Slack
+date: 2022-11-23 16:23:31.705147
 background: bg-[#4d1a51]
 label:
 tags:

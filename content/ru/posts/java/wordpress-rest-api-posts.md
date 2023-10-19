@@ -1,7 +1,6 @@
 ---
 title: "Wordpress use rest Api post Articals"
 date: 2023-10-11T11:26:58+08:00
-черновик: false
 tags: ["wordpress", "rest api"]
 ---
 

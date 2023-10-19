@@ -1,6 +1,6 @@
 ---
-Название: Roam Research
-дата: 2022-11-23 16:23:31.693680
+title: Roam Research
+date: 2022-11-23 16:23:31.693680
 background: bg-[#090a0a]
 label:
 tags:

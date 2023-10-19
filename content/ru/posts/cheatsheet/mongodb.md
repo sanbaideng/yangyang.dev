@@ -1,6 +1,6 @@
 ---
-Название: MongoDB
-дата: 2023-04-05
+title: MongoDB
+date: 2023-04-05
 background: bg-gradient-to-r from-green-900 via-green-600 to-green-400 hover:from-green-900 hover:via-green-700 hover:to-green-500
 теги:
   - NoSQL

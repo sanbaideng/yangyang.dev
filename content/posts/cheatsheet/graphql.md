@@ -103,7 +103,7 @@ type Query {
 
 #### Input with multiple arguments and default values
 
-```js {.wrap}
+```js
 type Query {
     users(limit: Int = 10, sort: String): [User]
 }
@@ -187,7 +187,7 @@ Union of one or more Objects
 
 ### Enums
 
-```js {.wrap}
+```js
 enum USER_STATE {
     NOT_FOUND
     ACTIVE

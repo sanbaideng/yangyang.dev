@@ -1,6 +1,6 @@
 ---
-judul: C++
-tanggal: 2021-06-01 11:51:44
+title: C++
+date: 2021-06-01 11:51:44
 latar belakang: bg-[#6d94c7]
 tag:
 kategori:

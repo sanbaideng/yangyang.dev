@@ -1,6 +1,6 @@
 ---
-judul: Keriting
-tanggal: 2023-01-03 15:18:34
+title: Keriting
+date: 2023-01-03 15:18:34
 latar belakang: bg-slate-600
 tags:
     - url

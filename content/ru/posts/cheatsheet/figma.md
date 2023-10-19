@@ -1,6 +1,6 @@
 ---
-название: Figma
-дата: 2022-11-23 16:23:31.706507
+title: Figma
+date: 2022-11-23 16:23:31.706507
 background: bg-[#935aee]
 label:
 tags:

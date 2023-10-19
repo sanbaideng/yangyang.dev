@@ -1,6 +1,6 @@
 ---
-Название: Affinity Photo
-дата: 2022-11-23 16:23:31.694998
+title: Affinity Photo
+date: 2022-11-23 16:23:31.694998
 background: bg-[#d578f0]
 label:
 tags:

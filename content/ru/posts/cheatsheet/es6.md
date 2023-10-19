@@ -1,6 +1,6 @@
 ---
-Название: ES6
-дата: 2023-01-08 18:26:55
+title: ES6
+date: 2023-01-08 18:26:55
 фон: bg-[#edc545]
 теги:
    - config
@@ -25,7 +25,7 @@ intro: |
 
 #### Пусть
 
-``js{2,4}
+```js
 function fn () {
   пусть x = 0
   if (true) {
@@ -38,7 +38,7 @@ function fn () {
 
 #### Const
 
-``js
+```js
 const a = 1
 ```
 
@@ -53,7 +53,7 @@ const a = 1
 
 #### Интерполяция
 
-``js
+```js
 const message = ``Здравствуйте ${name}``
 ```
 
@@ -61,7 +61,7 @@ const message = ``Здравствуйте ${name}``
 
 #### Многострочная строка
 
-``js
+```js
 const str = `
 привет
 мир
@@ -75,7 +75,7 @@ const str = `
 
 ### Двоичные и восьмеричные литералы
 
-``js
+```js
 let bin = 0b1010010
 let oct = 0o755
 ```
@@ -86,7 +86,7 @@ let oct = 0o755
 
 ### Экспоненциальный оператор
 
-``js {1}
+```js
 const byte = 2 **8
 ```
 
@@ -100,7 +100,7 @@ const byte = 2 **8
 
 #### Новые строковые методы
 
-``js
+```js
 "hello".repeat(3)
 "hello".includes("ll")
 "hello".startsWith("he")
@@ -114,7 +114,7 @@ const byte = 2 **8
 
 #### Методы новых чисел
 
-``js
+```js
 Number.EPSILON
 Number.isInteger(Infinity) // false
 Number.isNaN("NaN") // false
@@ -124,7 +124,7 @@ Number.isNaN("NaN") // false
 
 #### Новые методы математики
 
-``js
+```js
 Math.acosh(3) // 1.762747174039086
 Math.hypot(3, 4) // 5
 Math.imul(Math.pow(2, 32) -1, Math.pow(2, 32) -2) // 2
@@ -134,7 +134,7 @@ Math.imul(Math.pow(2, 32) -1, Math.pow(2, 32) -2) // 2
 
 #### Новые методы массивов
 
-``js
+```js
 // возвращает реальный массив
 Array.from(document.querySelectorAll("*"))
 //похож на new Array(...), но без специального одноаргументного поведения
@@ -146,7 +146,7 @@ Array.of(1, 2, 3)
 
 ### kind
 
-``js
+```js
 class Circle extends Shape {
 ```
 
@@ -154,7 +154,7 @@ class Circle extends Shape {
 
 #### Конструктор
 
-``js {1}
+```js
 constructor (radius) {
   this.radius = radius
 }
@@ -164,7 +164,7 @@ constructor (radius) {
 
 метод ####
 
-``js {1}
+```js
 getArea () {
   return Math.PI *2 *this.radius
 }
@@ -174,7 +174,7 @@ getArea () {
 
 #### Вызов метода суперкласса
 
-``js {2}
+```js
 expand(n) {
   return super.expand(n)*Math.PI
 }
@@ -184,7 +184,7 @@ expand(n) {
 
 #### Статические методы
 
-``js {1}
+```js
 static createFromDiameter(diameter) {
   return new Circle(diameter /2)
 }
@@ -199,7 +199,7 @@ static createFromDiameter(diameter) {
 
 В javascript по умолчанию используется поле public (`public`), если необходимо указать private, то можно использовать (`#`)
 
-``js
+```js
 class Dog {
   #name;
   constructor(name) {
@@ -221,7 +221,7 @@ dog.printName()
 
 #### Статический частный класс
 
-``js
+```js
 class ClassWithPrivate {
   static #privateStaticField;
 static #privateStaticFieldWithInitializer = 42;
@@ -239,7 +239,7 @@ static #privateStaticFieldWithInitializer = 42;
 
 ### взять на себя обязательство
 
-``js {1}
+```js
 new Promise((resolve, reject) => {
   if (ok) { resolve(result) }
   else { reject(error) }
@@ -253,7 +253,7 @@ new Promise((resolve, reject) => {
 
 ### Использование обещаний
 
-``js{2,3}
+```js
 promise
   .then((result) => { --- })
   .catch((error) => { --- })
@@ -263,7 +263,7 @@ promise
 
 ### Использование Promises в finally
 
-``js {4}
+```js
 обещание
   .then((result) => { --- })
   .catch((error) => { --- })
@@ -278,7 +278,7 @@ promise
 
 ### Функция обещания
 
-``js
+```js
 Promise.all(---)
 Promise.race(---)
 Promise.reject(---)
@@ -289,7 +289,7 @@ Promise.resolve(---)
 
 ### Async-await
 
-``js{2,3}
+```js
 async function run () {
   const user = await getUser()
   const tweets = await getTweets(user)
@@ -313,7 +313,7 @@ async function run () {
 
 #### Массивы
 
-``js {1}
+```js
 const [first, last] = ['Nikola', 'Tesla']
 ```
 
@@ -321,7 +321,7 @@ const [first, last] = ['Nikola', 'Tesla']
 
 #### Объекты
 
-``js {1}
+```js
 let {title, author} = {
   title: 'Шелкопряд',
   author: 'R. Galbraith'
@@ -335,14 +335,14 @@ let {title, author} = {
 
 ### По умолчанию
 
-``js
+```js
 const scores = [22, 33]
 const [math = 50, sci = 50, arts = 50] = scores
 ```
 
 ----
 
-``js
+```js
 //Result:
 //math === 22, sci === 33, arts === 50
 ```
@@ -353,7 +353,7 @@ const [math = 50, sci = 50, arts = 50] = scores
 
 ### Параметры функции
 
-``js {1}
+```js
 function greet({ name, greeting }) {
   console.log(`${greeting}, ${name}!`)
 }
@@ -361,7 +361,7 @@ function greet({ name, greeting }) {
 
 ----
 
-``js
+```js
 greet({ name: 'Larry', greeting: 'Ahoy' })
 ```
 
@@ -371,7 +371,7 @@ greet({ name: 'Larry', greeting: 'Ahoy' })
 
 ### Defaults
 
-``js {1}
+```js
 function greet({ name = 'Rauno' } = {}) {
   console.log(`Привет ${имя}!`);
 }
@@ -379,7 +379,7 @@ function greet({ name = 'Rauno' } = {}) {
 
 ----
 
-``js
+```js
 greet() // Привет Рауно!
 greet({ name: 'Larry' }) // Привет Ларри!
 ```
@@ -388,7 +388,7 @@ greet({ name: 'Larry' }) // Привет Ларри!
 
 ### Переназначение ключей
 
-``js {1}
+```js
 function printCoordinates({ left: x, top: y }) {
   console.log(`x: ${x}, y: ${y}`)
 }
@@ -396,7 +396,7 @@ function printCoordinates({ left: x, top: y }) {
 
 ----
 
-``js
+```js
 printCoordinates({ left: 25, top: 90 })
 ```
 
@@ -406,7 +406,7 @@ printCoordinates({ left: 25, top: 90 })
 
 ### Loop
 
-``js {1}
+```js
 for (let {title, artist} of songs) {
   ---
 }
@@ -418,7 +418,7 @@ for (let {title, artist} of songs) {
 
 ### Деконструкция объектов
 
-``js {1}
+```js
 const { id, ...detail } = song;
 ```
 
@@ -435,7 +435,7 @@ const { id, ...detail } = song;
 
 #### с расширениями объектов
 
-``js {2}
+```js
 const options = {
   ... по умолчанию,
   visible: true
@@ -446,7 +446,7 @@ const options = {
 
 #### Нет расширения объекта
 
-``js
+```js
 const options = Object.assign(
   {}, defaults,
   { visible: true })
@@ -463,7 +463,7 @@ const options = Object.assign(
 
 #### с расширением массива
 
-``js{2,3}
+```js
 const users = [
   ...администраторы,
   ...редакторы,
@@ -475,7 +475,7 @@ const users = [
 
 #### Нет расширения массива
 
-``js
+```js
 const users = admins
   .concat(editors)
   .concat([ 'rstacruz' ])
@@ -495,7 +495,7 @@ const users = admins
 
 #### Параметры по умолчанию
 
-``js {1}
+```js
 function greet (name = 'Jerry') {
   return `Hello ${name}`
 }
@@ -505,7 +505,7 @@ function greet (name = 'Jerry') {
 
 #### Параметры отдыха
 
-``js {1}
+```js
 function fn(x, ...y) {
   // y - массив
   return x * y.length
@@ -516,7 +516,7 @@ function fn(x, ...y) {
 
 #### Расширения
 
-``js {1}
+```js
 fn(...[1, 2, 3])
 // то же, что и fn(1, 2, 3)
 ```
@@ -532,7 +532,7 @@ Default (по умолчанию), rest (остаток), spread (расшире
 
 #### Стрелочные функции
 
-``js {1}
+```js
 setTimeout(() => {
   ---
 })
@@ -542,7 +542,7 @@ setTimeout(() => {
 
 #### с параметрами
 
-``js {1}
+```js
 readFile('text.txt', (err, data) => {
   ...
 })
@@ -551,7 +551,7 @@ readFile('text.txt', (err, data) => {
 
 
 #### implicit return
-```js{1,4,5,6}
+````js
 arr.map(n => n*2)
 //без фигурных скобок = неявный return
 //Так же как: arr.map(function (n) { return n*2 })
@@ -568,7 +568,7 @@ arr.map(n => ({
 
 ### Значение параметра по умолчанию
 
-``js
+```js
 function log(x, y = 'World') {
   console.log(x, y);
 }
@@ -582,7 +582,7 @@ log('Hello', '') // Hello
 
 ### Используется в сочетании с деструктуризацией присваивания по умолчанию
 
-``js
+```js
 function foo({x, y = 5} = {}) {
   console.log(x, y);
 }
@@ -594,7 +594,7 @@ foo() // undefined 5
 
 ### атрибут name
 
-``js
+```js
 function foo() {}
 foo.name // "foo"
 ```
@@ -603,7 +603,7 @@ foo.name // "foo"
 
 ### свойство длины
 
-``js
+```js
 function foo(a, b){}
 foo.length // 2
 ```
@@ -615,13 +615,13 @@ foo.length // 2
 
 ### Краткий синтаксис
 
-``js
+```js
 module.exports = { hello, bye }
 ```
 
 то же самое ниже:
 
-``js
+```js
 module.exports = {
   hello: hello, bye: bye
 }
@@ -633,7 +633,7 @@ module.exports = {
 
 ### метод
 
-``js {2}
+```js
 const App = {
   start () {
     console.log('running')
@@ -648,7 +648,7 @@ const App = {
 
 ### Геттеры и сеттеры
 
-``js{2,5}
+```js
 const App = {
   get closed () {
     return this.status === 'closed'
@@ -665,7 +665,7 @@ const App = {
 
 ### Вычисляемое имя свойства
 
-``js {3}
+```js
 let event = 'click'
 let handlers = {
   [`on${event}`]: true
@@ -679,7 +679,7 @@ let handlers = {
 
 ### Извлечение значения
 
-``js{3,5}
+```js
 const fatherJS = { возраст: 57, имя: "Чжан Сань" }
 Object.values(fatherJS)
 //[57, "Zhang San"]
@@ -694,35 +694,35 @@ Object.entries(fatherJS)
 
 ### Импорт импорт
 
-``js
+```js
 import 'helpers'
 //aka: require('---')
 ```
 
 ----
 
-``js
+```js
 import Express from 'express'
 //aka: const Express = require('---').default || require('---')
 ```
 
 ----
 
-``js
+```js
 import { indent } from 'helpers'
 //aka: const indent = require('---').indent
 ```
 
 ----
 
-``js
+```js
 import *as Helpers from 'helpers'
 //aka: const Helpers = require('---')
 ```
 
 ----
 
-``js
+```js
 import { indentSpaces as indent } from 'helpers'
 //aka: const indent = require('---').indentSpaces
 ```
@@ -734,28 +734,28 @@ import { indentSpaces as indent } from 'helpers'
 
 ### Экспорт экспорт
 
-``js
+```js
 export default function () { --- }
 //aka: module.exports.default = ---
 ```
 
 ----
 
-``js
+```js
 export function mymethod () { --- }
 //aka: module.exports.mymethod = ---
 ```
 
 ----
 
-``js
+```js
 export const pi = 3.14159
 //aka: module.exports.pi = ---
 ```
 
 ----
 
-``js
+```js
 const FirstName = 'Michael';
 const LastName = 'Jackson';
 const year = 1958;
@@ -764,7 +764,7 @@ export { firstName, lastName, year };
 
 ----
 
-``js
+```js
 export *from "lib/math";
 ```
 
@@ -775,7 +775,7 @@ export *from "lib/math";
 
 ### Переименование ключевого слова `as`
 
-``js{2,8,12-14}
+```js
 импорт {
   lastName as surname // переименование импорта
 } из './profile.js';
@@ -797,7 +797,7 @@ export {
 
 ### Динамическая загрузка модулей
 
-``js
+```js
 button.addEventListener('click', event => {
   import('./dialogBox.js')
     .then(dialogBox => {
@@ -814,7 +814,7 @@ button.addEventListener('click', event => {
 
 ### import() позволяет динамически генерировать пути к модулям
 
-``js
+```js
 const main = document.querySelector('main')
 
 import(`./modules/${someVariable}.js`)
@@ -832,7 +832,7 @@ import(`./modules/${someVariable}.js`)
 
 [ES2020](https://github.com/tc39/proposal-import-meta) В команду `import` добавлено мета-свойство `import.meta`, которое возвращает мета-информацию текущего модуля
 
-``js
+```js
 new URL('data.txt', import.meta.url)
 ```
 В среде Node.js `import.meta.url` всегда возвращает локальный путь, то есть строку протокола `file:URL`, например `file:/// home/user/foo.js`.
@@ -845,7 +845,7 @@ new URL('data.txt', import.meta.url)
 
 #### статический импорт
 
-``js
+```js
 import json from "./package.json" assert {type: "json"}
 //Импортируем все объекты в json-файле
 ```
@@ -854,7 +854,7 @@ import json from "./package.json" assert {type: "json"}
 
 #### Динамический импорт
 
-``js
+```js
 const json =
      await import("./package.json", { assert: { type: "json" } })
 ```
@@ -864,7 +864,7 @@ const json =
 
 ### Функция генератора
 
-``js
+```js
 function*idMaker () {
   let id = 0
   while (true) { yield id++ }
@@ -873,7 +873,7 @@ function*idMaker () {
 
 ----
 
-``js
+```js
 let gen = idMaker()
 gen.next().value // → 0
 gen.next().value // → 1
@@ -887,7 +887,7 @@ gen.next().value // → 2
 
 ### Для... из + итератора {.row-span-2}
 
-``js
+```js
 let fibonacci = {
   [Symbol.iterator]() {
     let pre = 0, cur = 1;
@@ -914,7 +914,7 @@ for (var n of fibonacci) {
 
 ### Взаимосвязь с интерфейсом Iterator
 
-``js
+```js
 var gen = {};
 gen[Symbol.iterator] = function*() {
   yield 1;
@@ -928,7 +928,7 @@ gen[Symbol.iterator] = function*() {
 Функция `Generator` присваивается свойству `Symbol.iterator`, так что объект `gen` обладает интерфейсом `Iterator`, который может быть обойден оператором `...`.
 ### Свойство Symbol.iterator
 
-``js
+```js
 function*gen() { /*некоторый код */}
 var g = gen();
 

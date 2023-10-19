@@ -1,8 +1,7 @@
 ---
 title: "как получить код регистрации смс из интернета"
 date: 2023-02-13T08:27:55+08:00
-черновик: false
-теги: ["chatgpt"]
+tag: ["chatgpt"]
 ---
 
 (Регистрация chatgpt ссылка: https://foofish.net/how-to-registe-chatGPT.html)

@@ -1,6 +1,6 @@
 ---
-Judul: Alat Pengembang Chrome
-tanggal: 2022-11-23 16:23:31.696017
+title: Alat Pengembang Chrome
+date: 2022-11-23 16:23:31.696017
 latar belakang: bg-[#c64d3e]
 label:
 tag:

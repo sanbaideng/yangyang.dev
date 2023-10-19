@@ -1,23 +1,15 @@
 ---
-judul: Temukan
-tanggal: 2020-12-28 16:52:20
-tag:
-    - mencari
-    - file
-    - direktori
-kategori:
-    - Perintah Linux
-intro: |
-    Ini adalah daftar referensi cepat dari lembar contekan untuk perintah find linux, berisi opsi dan contoh umum.
-plugin
-    - copyCode
+title: Temukan
+date: 2020-12-28 16:52:20
+tag: ["mencari","direktori"] 
 ---
-
-
-Memulai
+ 
 ---------------
 
 ### Penggunaan
+
+Ini adalah daftar referensi cepat dari lembar contekan untuk perintah find linux, berisi opsi dan contoh umum.
+plugin
 
 ```shell script
 $ find [path ...] [options] [expression]

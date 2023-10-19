@@ -1,6 +1,6 @@
 ---
-Judul: Peramban Berani
-tanggal: 2022-11-23 16:23:31.698868
+title: Peramban Berani
+date: 2022-11-23 16:23:31.698868
 latar belakang: bg-[#da6b37]
 label:
 tag:

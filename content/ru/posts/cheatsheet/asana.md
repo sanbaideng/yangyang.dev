@@ -1,6 +1,6 @@
 ---
-Название: Asana
-дата: 2022-11-23 16:23:31.697445
+title: Asana
+date: 2022-11-23 16:23:31.697445
 background: bg-[#e0726e]
 label:
 tags:

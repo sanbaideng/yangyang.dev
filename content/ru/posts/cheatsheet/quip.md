@@ -1,6 +1,6 @@
 ---
-Название: Quip.com
-дата: 2022-11-23 16:23:31.697261
+title: Quip.com
+date: 2022-11-23 16:23:31.697261
 background: bg-[#e4795b]
 label:
 tags:

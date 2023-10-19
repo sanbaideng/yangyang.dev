@@ -1,6 +1,6 @@
 ---
-название: HTML Characters Entities
-дата: 2022-01-13 11:44:21
+title: HTML Characters Entities
+date: 2022-01-13 11:44:21
 теги:
     - html
     - код

@@ -1,6 +1,6 @@
 ---
-Название: Emoji
-дата: 2020-12-15 18:28:43
+title: Emoji
+date: 2020-12-15 18:28:43
 фон: bg-[#ebbe46]
 теги:
 категории:
@@ -508,7 +508,7 @@
 | :scroll:                         | | `:scroll:` |
 | :буфер обмена:                      | `:clipboard:` |
 | :календарь:                       | `:calendar:` |
-| :дата:                           | `:date:` |
+| :date:                           | `:date:` |
 | :card_index:                     | `:card_index:` |
 | :file_folder:                    | `:file_folder:` |
 | :open_file_folder:               | `:open_file_folder:` |

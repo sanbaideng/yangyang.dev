@@ -1,7 +1,6 @@
 ---
-название: "wechat bot и midjourney"
+title: "wechat bot и midjourney"
 date: 2023-02-16T15:20:12+08:00
-черновик: false
 tags: ["nodejs", "wechat"]
 ---
 # 个人微信接入chatgpt

@@ -1,6 +1,6 @@
 ---
-Название: Webflow
-дата: 2022-11-23 16:23:31.703217
+title: Webflow
+date: 2022-11-23 16:23:31.703217
 background: bg-[#4450ee]
 label:
 tags:

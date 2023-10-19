@@ -1,6 +1,6 @@
 ---
-название: Kubernetes
-дата: 2023-01-09 10:26:55
+title: Kubernetes
+date: 2023-01-09 10:26:55
 фон: bg-[#416cde]
 теги:
    - config

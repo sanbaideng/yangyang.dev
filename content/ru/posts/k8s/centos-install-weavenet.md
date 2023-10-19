@@ -1,7 +1,6 @@
 ---
 title: "[Cloud Native] Установка Weavenet на CentOS"
 date: 2023-02-21T10:16:19+08:00
-черновик: false
 tags: ["k8s"]
 ---
 # Установка Weavenet на CentOS

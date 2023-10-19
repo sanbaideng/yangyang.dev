@@ -1,6 +1,6 @@
 ---
-judul: C
-tanggal: 2022-12-30 09:51:44
+title: C
+date: 2022-12-30 09:51:44
 latar belakang: bg-[#2a338a]
 tags:
 kategori:
@@ -1091,7 +1091,7 @@ struct MyStructure { // deklarasi struktur
 
 Membuat sebuah variabel struct bernama `s1`
 
-```c{7}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1108,7 +1108,7 @@ int main() {
 
 ### String dalam struktur
 
-```c{9}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1131,7 +1131,7 @@ Menetapkan nilai ke string menggunakan fungsi `strcpy`
 
 ### Mengakses anggota struktur {.row-span-2}
 
-```c{11,12,16}
+```c
 // membuat struktur bernama myStructure
 struct myStructure {
   int myNum;
@@ -1173,7 +1173,7 @@ s2.myHuruf = 'C';
 
 ### Menyalin struktur
 
-```c{6}
+```c
 struct myStructure s1 = {
   13, 'B', "Beberapa teks"
 };
@@ -1188,7 +1188,7 @@ Pada contoh, nilai dari `s1` disalin ke `s2`
 
 ### Memodifikasi nilai
 
-```c{6,7}
+```c
 // Membuat variabel struct dan memberikannya sebuah nilai
 struct myStructure s1 = {
   13, 'B'
@@ -1248,7 +1248,7 @@ Mode Mode | Deskripsi Deskripsi
 
 ### Buka berkas: fopen()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1273,7 +1273,7 @@ Setelah melakukan semua operasi pada berkas, berkas harus ditutup dengan `fclose
 
 ### Menulis ke berkas: fprintf()
 
-```c{7}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1290,7 +1290,7 @@ void main() {
 
 ### Baca file: fscanf()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1310,7 +1310,7 @@ void main() {
 
 ### Menulis ke file: fputc()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1325,7 +1325,7 @@ void main() {
 
 ### Baca file: fgetc()
 
-```c{8}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1350,7 +1350,7 @@ void main() {
 
 ### Menulis ke file: fputs()
 
-```c {8}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1371,7 +1371,7 @@ void main() {
 
 ### Baca file: fgets()
 
-```c {10}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1393,7 +1393,7 @@ void main() {
 
 ### fseek()
 
-```c{8}
+```c
 #include <stdio.h>
 
 void main(void) {
@@ -1416,7 +1416,7 @@ mengatur penunjuk berkas ke posisi yang diberikan
 
 ### memundurkan ()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1449,7 +1449,7 @@ void main() {
 
 ### ftell()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 

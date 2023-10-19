@@ -1,20 +1,10 @@
 ---
-judul: Ekspres
-tanggal: 2023-02-26 15:23:31
-latar belakang: bg-[#edc545]
-tags:
-  - konfigurasi
-  - format
-kategori:
-  - Pemrograman
-intro: |
-  Lembar contekan referensi cepat untuk Express, kerangka kerja web yang fleksibel dan ramping untuk Node.js
-plugin:
-    - copyCode
+title: Express
+date: 2023-02-26 15:23:31
+tag: ["Express"] 
 ---
 
-Memulai
----
+# express
 
 
 
@@ -468,7 +458,7 @@ Buat rute untuk merender berkas `index.pug`. Jika properti mesin penampil tidak 
 ```js
 app.get('/', (req, res) => {
   res. render('index', {
-    judul: 'Hai', pesan: 'Halo!'
+    title: 'Hai', pesan: 'Halo!'
   })
 })
 ```

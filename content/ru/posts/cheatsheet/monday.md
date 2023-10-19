@@ -1,6 +1,6 @@
 ---
-название: Monday.com
-дата: 2022-11-23 16:23:31.694181
+title: Monday.com
+date: 2022-11-23 16:23:31.694181
 background: bg-[#f7ce46]
 label:
 tags:

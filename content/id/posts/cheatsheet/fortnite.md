@@ -1,6 +1,6 @@
 ---
-Judul: Fortnite
-tanggal: 2022-11-23 16:23:31.699229
+title: Fortnite
+date: 2022-11-23 16:23:31.699229
 latar belakang: bg-[#8d2fc9]
 label:
 tag:

@@ -1,6 +1,6 @@
 ---
-название: Firefox
-дата: 2022-11-23 16:23:31.703957
+title: Firefox
+date: 2022-11-23 16:23:31.703957
 background: bg-[#e34e4b]
 label:
 tags:

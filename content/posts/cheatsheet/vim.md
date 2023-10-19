@@ -547,7 +547,7 @@ Vim Search and Replace
 
 
 ### Examples {.col-span-2}
-```c {.wrap}
+```c
 :s/a\|b/xxx\0xxx/g		         # Modifies "a b"      to "xxxaxxx xxxbxxx"
 :s/test/\U& file/                # Modifies "test"     to "TEST FILE"
 :s/\(test\)/\U\1\e file/         # Modifies "test"     to "TEST file"

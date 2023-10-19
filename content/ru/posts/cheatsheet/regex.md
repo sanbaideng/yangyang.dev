@@ -1,6 +1,6 @@
 ---
-Название: RegEX
-дата: 2020-11-25 18:28:43
+title: RegEX
+date: 2020-11-25 18:28:43
 фон: bg-[#e56d2d]
 теги:
     - регулярное выражение
@@ -650,7 +650,7 @@ let regex = /t(e)(st(\d?))/g;
 let text = 'test1test2';
 let array = [...text.matchAll(regex)];
 
-// Выходные данные: ["test1", "e", "st1", "1"].
+// Выходные данные: ["test1", "e", "st1", "1"]
 console.log(array[0]);
 
 // Выходные данные: ["test2", "e", "st2", "2"]

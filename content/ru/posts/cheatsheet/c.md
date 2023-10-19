@@ -1,6 +1,6 @@
 ---
-название: C
-дата: 2022-12-30 09:51:44
+title: C
+date: 2022-12-30 09:51:44
 фон: bg-[#2a338a]
 теги:
 категории:
@@ -1091,7 +1091,7 @@ struct MyStructure { // объявление структуры
 
 Создадим переменную struct с именем `s1`.
 
-```c{7}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1108,7 +1108,7 @@ int main() {
 
 ### Строки в структуре
 
-```c{9}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1131,7 +1131,7 @@ int main() {
 
 ### Доступ к членам структуры {.row-span-2}
 
-```c{11,12,16}
+```c
 // создаем структуру myStructure
 struct myStructure {
   int myNum;
@@ -1173,7 +1173,7 @@ s2.myLetter = 'C';
 
 ### Копирование структуры
 
-```c{6}
+```c
 struct myStructure s1 = {
   13, 'B', "Некоторый текст"
 };
@@ -1188,7 +1188,7 @@ s2 = s1;
 
 ### Изменить значение
 
-```c{6,7}
+```c
 // Создаем переменную struct и присваиваем ей значение
 struct myStructure s1 = {
   13, 'B'
@@ -1248,7 +1248,7 @@ printf("%d %c %s",
 
 ### Открыть файл: fopen()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1273,7 +1273,7 @@ void main() {
 
 ### Запись в файл: fprintf()
 
-```c{7}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1290,7 +1290,7 @@ void main() {
 
 ### Чтение файла: fscanf()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1310,7 +1310,7 @@ void main() {
 
 ### Запись в файл: fputc()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1325,7 +1325,7 @@ void main() {
 
 ### Чтение файла: fgetc()
 
-```c{8}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1350,7 +1350,7 @@ void main() {
 
 ### Запись в файл: fputs()
 
-```c {8}
+```c
 #include<stdio.h>
 #include<conio.h>
 
@@ -1371,7 +1371,7 @@ void main() {
 
 ### Чтение файлов: fgets()
 
-```c {10}
+```c
 #include<stdio.h>
 #include<conio.h>
 
@@ -1393,7 +1393,7 @@ void main() {
 
 ### fseek()
 
-```c{8}
+```c
 #include <stdio.h>
 
 void main(void) {
@@ -1416,7 +1416,7 @@ void main(void) {
 
 ### перемотка()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1449,7 +1449,7 @@ void main() {
 
 ### ftell()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 

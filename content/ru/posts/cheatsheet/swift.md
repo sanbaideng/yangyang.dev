@@ -1,6 +1,6 @@
 ---
-название: Swift
-дата: 2023-02-28 14:50:01
+title: Swift
+date: 2023-02-28 14:50:01
 фон: bg-[#eb4e38]
 теги:
     - Apple
@@ -855,7 +855,7 @@ oddNumbers.removeAll()
 ### .contains()
 
 ```swift
-var names: Set = ["Rosa", "Doug", "Waldo"].
+var names: Set = ["Rosa", "Doug", "Waldo"]
 print(names.contains("Lola")) // print: false
 
 if names.contains("Waldo"){
@@ -891,7 +891,7 @@ print(populatedSet.isEmpty) // print: false
 ### Свойство .count
 
 ```swift
-var band: Set = ["Peter", "Denial", "Jame"].
+var band: Set = ["Peter", "Denial", "Jame"]
 
 print("В группе \(band.count) игроков.")
 // print: В группе 4 игрока.

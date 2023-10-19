@@ -1,5 +1,5 @@
 ---
-Judul: "Berita AI/teknologi"
+title: "Berita AI/teknologi"
 date: 2023-04-20T07:40:55+08:00
 konsep: salah
 tags: ["AI"]

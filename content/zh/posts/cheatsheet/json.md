@@ -77,7 +77,7 @@ Getting Started
 | `\u` | Trailed by four hex digits |
 
 #### Examples
-```json {.wrap}
+```json
 {
   "url": "https://cheatsheets.zip",
   "msg" : "Hi,\n\"CheatSheets.zip\"",

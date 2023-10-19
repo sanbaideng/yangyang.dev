@@ -1,8 +1,6 @@
 ---
 title: C
 date: 2022-12-30 09:51:44
-background: bg-[#2a338a]
-tags:
 categories:
   - Programming
 intro: |
@@ -1091,7 +1089,7 @@ struct MyStructure { // structure declaration
 
 Create a struct variable called `s1`
 
-```c{7}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1108,7 +1106,7 @@ int main() {
 
 ### Strings in the structure
 
-```c{9}
+```c
 struct myStructure {
   int myNum;
   char myLetter;
@@ -1131,7 +1129,7 @@ Assigning values ​​to strings using the `strcpy` function
 
 ### Accessing structure members {.row-span-2}
 
-```c{11,12,16}
+```c
 // create a structure called myStructure
 struct myStructure {
   int myNum;
@@ -1173,7 +1171,7 @@ s2.myLetter = 'C';
 
 ### Copy structure
 
-```c{6}
+```c
 struct myStructure s1 = {
   13, 'B', "Some text"
 };
@@ -1188,7 +1186,7 @@ In the example, the value of `s1` is copied to `s2`
 
 ### Modify value
 
-```c{6,7}
+```c
 // Create a struct variable and assign it a value
 struct myStructure s1 = {
   13, 'B'
@@ -1248,7 +1246,7 @@ Mode Mode | Description Description
 
 ### Open the file: fopen()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1273,7 +1271,7 @@ After performing all operations on the file, the file must be closed with `fclos
 
 ### Write to file: fprintf()
 
-```c{7}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1290,7 +1288,7 @@ void main() {
 
 ### Read the file: fscanf()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1310,7 +1308,7 @@ void main() {
 
 ### Write to file: fputc()
 
-```c{6}
+```c
 #include <stdio.h>
 
 void main() {
@@ -1325,7 +1323,7 @@ void main() {
 
 ### Read the file: fgetc()
 
-```c{8}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1350,7 +1348,7 @@ void main() {
 
 ### Write to file: fputs()
 
-```c {8}
+```c
 #include<stdio.h>
 #include<conio.h>
 
@@ -1371,7 +1369,7 @@ void main() {
 
 ### Read files: fgets()
 
-```c {10}
+```c
 #include<stdio.h>
 #include<conio.h>
 
@@ -1393,7 +1391,7 @@ void main() {
 
 ### fseek()
 
-```c{8}
+```c
 #include <stdio.h>
 
 void main(void) {
@@ -1416,7 +1414,7 @@ set the file pointer to the given position
 
 ### rewind()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -1449,7 +1447,7 @@ void main() {
 
 ### ftell()
 
-```c{11}
+```c
 #include <stdio.h>
 #include <conio.h>
 

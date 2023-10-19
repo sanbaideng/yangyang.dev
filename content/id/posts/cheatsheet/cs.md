@@ -1,6 +1,6 @@
 ---
-judul: C#
-tanggal: 2021-12-14 12:22:00
+title: C#
+date: 2021-12-14 12:22:00
 latar belakang: bg-[#8c4c8a]
 tags:
     - berorientasi objek

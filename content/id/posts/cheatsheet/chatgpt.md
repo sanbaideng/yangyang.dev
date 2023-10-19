@@ -1,6 +1,6 @@
 ---
-judul: ChatGPT
-tanggal: 2023-02-09 10:28:43
+title: ChatGPT
+date: 2023-02-09 10:28:43
 latar belakang: bg-[#4aa181]
 tags:
     - AI

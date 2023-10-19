@@ -1,6 +1,6 @@
 ---
-Judul: Desainer Afinitas
-tanggal: 2022-11-23 16:23:31.702748
+title: Desainer Afinitas
+date: 2022-11-23 16:23:31.702748
 latar belakang: bg-[#79cdf1]
 label:
 tag:

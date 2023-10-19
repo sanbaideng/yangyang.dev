@@ -1,6 +1,6 @@
 ---
-Название: GraphQL
-дата: 2021-07-15 20:51:44
+title: GraphQL
+date: 2021-07-15 20:51:44
 фон: bg-[#cc44a2]
 теги:
     - запрос
@@ -79,14 +79,14 @@ intro: |
 
 ### Входные аргументы {.row-span-2}
 #### Основной ввод
-``js
+```js
 тип Query {
     users(limit: Int): [User]
 }
 ```
 
 #### Вход со значением по умолчанию
-``js
+```js
 тип Query {
     users(limit: Int = 10): [User]
 }
@@ -94,7 +94,7 @@ intro: |
 
 
 #### Ввод с несколькими аргументами
-``js
+```js
 тип Query {
     users(limit: Int, sort: String): [User]
 }
@@ -103,7 +103,7 @@ intro: |
 
 #### Ввод с несколькими аргументами и значениями по умолчанию
 
-``js {.wrap}
+```js
 тип Query {
     users(limit: Int = 10, sort: String): [User]
 }
@@ -119,14 +119,14 @@ type Query {
 ### Типы ввода
 
 
-``js
+```js
 input ListUsersInput {
     лимит: Int
     since_id: ID
 }
 ```
 
-``js
+```js
 тип Мутация {
     users(params: ListUsersInput): [User]!
 }
@@ -135,7 +135,7 @@ input ListUsersInput {
 ### Пользовательские скаляры
 
 
-``js
+```js
 scalar Url
 тип Пользователь {
     имя: String
@@ -146,7 +146,7 @@ scalar Url
 
 ### Интерфейсы
 
-``js
+```js
 интерфейс Foo {
     is_foo: Boolean
 }
@@ -168,7 +168,7 @@ type Baz implements Foo, Goo {
 
 ### Союзы
 
-``js
+```js
 тип Foo {
     имя: String
 }
@@ -187,7 +187,7 @@ union MultipleUnion = Foo | Bar
 
 ### Enums
 
-``js {.wrap}
+```js
 enum USER_STATE {
     НЕ_НАЙДЕН
     ACTIVE

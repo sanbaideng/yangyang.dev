@@ -1,3 +1,9 @@
+---
+title: "Kubectl Command Cheatsheet"
+date: 2023-10-15T10:39:58+08:00
+draft: false
+tags: ["Kubectl","cheatsheet"]
+---
 # Kubectl Command Cheatsheet
 
 Kubectl is the command line configuration tool for Kubernetes that communicates with a Kubernetes API server. Using Kubectl allows you to create, inspect, update, and delete Kubernetes objects. This cheatsheet will serve as a quick reference to make commands on many common Kubernetes components and resources. You can use the full command for an object on things like pod(s) or the shortcode variation mentioned in parantheses in the heading of each section. They will all generate the same outcome. You'll also want to be sure to follow up most of the commands with the specific <name> of the resource you are managing.

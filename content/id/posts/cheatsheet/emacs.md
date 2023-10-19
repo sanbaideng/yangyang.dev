@@ -1,6 +1,6 @@
 ---
-judul: Emacs
-tanggal: 2020-12-17 16:21:49
+title: Emacs
+date: 2020-12-17 16:21:49
 latar belakang: bg-[#7752a9]
 Tag:
     - editor

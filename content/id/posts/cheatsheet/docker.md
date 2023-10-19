@@ -1,6 +1,6 @@
 ---
-judul: Docker
-tanggal: 2020-12-30 10:55:24
+title: Docker
+date: 2020-12-30 10:55:24
 latar belakang: bg-[#488fdf]
 tags:
     - wadah

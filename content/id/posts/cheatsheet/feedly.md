@@ -1,6 +1,6 @@
 ---
-judul: Feedly
-tanggal: 2022-11-23 16:23:31.705686
+title: Feedly
+date: 2022-11-23 16:23:31.705686
 latar belakang: bg-[#55a955]
 label:
 tag:

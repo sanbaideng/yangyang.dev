@@ -1,5 +1,5 @@
 ---
-judul: "cara mendapatkan kode registrasi sms dari internet"
+title: "cara mendapatkan kode registrasi sms dari internet"
 date: 2023-02-13T08:27:55+08:00
 konsep: salah
 tags: ["chatgpt"]

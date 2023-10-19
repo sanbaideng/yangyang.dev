@@ -1,6 +1,6 @@
 ---
-название: Экспресс
-дата: 2023-02-26 15:23:31
+title: Экспресс
+date: 2023-02-26 15:23:31
 фон: bg-[#edc545]
 теги:
   - config
@@ -33,7 +33,7 @@ intro: |
   ```
 
 - Добавляем код в файл `index.js`:
-  ``js
+  ```js
   const express = require('express')
   const app = express()
   const port = 3000
@@ -109,7 +109,7 @@ $ DEBUG=myapp:*npm start
 
 ### Приложение
 
-``js
+```js
 var express = require('express')
 var app = express()
 
@@ -212,7 +212,7 @@ console.dir(app.locals.email)
 
 ### Response
 
-``js
+```js
 app.get('/', function (req, res) {
   console.dir(res.headersSent) //false
   res.send('OK')
@@ -272,7 +272,7 @@ console.dir(res.headersSent) //true
 
 Вызывается для любого запроса, переданного этому маршрутизатору
 
-``js
+```js
 router. use(function (req, res, next) {
   //... здесь есть некоторая логика... как и в любом другом промежуточном ПО
   next()
@@ -281,7 +281,7 @@ router. use(function (req, res, next) {
 
 будет обрабатывать любой запрос, заканчивающийся на `/events`.
 
-``js
+```js
 //зависит от того, где маршрутизатор "использует()"
 router. get('/events', (req, res, next) => {
   //..
@@ -294,7 +294,7 @@ router. get('/events', (req, res, next) => {
 
 Объект `res` представляет собой HTTP-ответ, отправляемый приложением `Express` при получении HTTP-запроса
 
-``js
+```js
 app.get('/user/:id', (req, res) => {
   res.send('user' + req.params.id)
 })
@@ -306,7 +306,7 @@ app.get('/user/:id', (req, res) => {
 
 Объект `req` представляет собой `HTTP` запрос и имеет свойства для строки запроса, параметров, тела запроса, HTTP-заголовков и т.д.
 
-``js
+```js
 app.get('/user/:id', (req, res) => {
   res.send('user' + req.params.id)
 })
@@ -316,7 +316,7 @@ app.get('/user/:id', (req, res) => {
 
 ### res. end()
 
-``js
+```js
 res. end()
 res.status(404).end()
 ```
@@ -326,7 +326,7 @@ res.status(404).end()
 
 ### res.json([body])
 
-``js
+```js
 res.json(null)
 res.json({ user: 'tobi' })
 res.status(500).json({ error: 'message' })
@@ -336,7 +336,7 @@ res.status(500).json({ error: 'message' })
 
 ### app.all
 
-``js
+```js
 app.all('/secret', function (req, res, next) {
   console.log('доступ к секретному разделу...')
   next() // Передаем управление следующему обработчику
@@ -347,7 +347,7 @@ app.all('/secret', function (req, res, next) {
 
 ### app.delete
 
-``js
+```js
 app.delete('/', function (req, res) {
   res.send('DELETE запрос на главную страницу')
 })
@@ -357,7 +357,7 @@ app.delete('/', function (req, res) {
 
 ### app.disable(name)
 
-``js
+```js
 app.disable('trust proxy')
 app.get('trust proxy')
 // => false
@@ -367,7 +367,7 @@ app.get('trust proxy')
 
 ### app.disabled(name)
 
-``js
+```js
 app.disabled('trust proxy')
 // => true
 
@@ -380,7 +380,7 @@ app.disabled('trust proxy')
 
 ### app.engine(ext, callback)
 
-``js
+```js
 var engines = require('consolidate')
 
 app.engine('haml', engines.haml)
@@ -391,7 +391,7 @@ app.engine('html', engines.hogan)
 
 ### app.listen([port[, host[, backlog]]][, callback])
 
-``js
+```js
 var express = require('express')
 
 var app = express()
@@ -400,7 +400,7 @@ app.listen(3000)
 
 
 ### Маршрутизация
-``js
+```js
 const express = require('express')
 const app = express()
 
@@ -410,7 +410,7 @@ app.get('/', (req, res) => {
 })
 ```
 
-``js
+```js
 // Маршрутизация метода GET
 app.get('/', (req, res) => {
   res.send('GET-запрос на главную страницу')
@@ -425,7 +425,7 @@ app.post('/', (req, res) => {
 
 ### Middleware
 
-``js
+```js
 function logOriginalUrl (req, res, next) {
   console.log('ReqURL:', req.originalUrl)
   next()
@@ -449,7 +449,7 @@ app.get('/user/:id', log,
 
 ### Использование шаблонов
 
-``js
+```js
 app.set('view engine', 'pug')
 ```
 
@@ -465,7 +465,7 @@ html
 
 Создайте маршрут для рендеринга файла `index.pug`. Если свойство view engine не задано, то необходимо указать расширение файла представления
 
-``js
+```js
 app.get('/', (req, res) => {
   res. render('index', {
     title: 'Привет', message: 'Hello there!'

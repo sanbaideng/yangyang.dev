@@ -1,6 +1,6 @@
 ---
-judul: GIMP
-tanggal: 2022-11-23 16:23:31.696743
+title: GIMP
+date: 2022-11-23 16:23:31.696743
 latar belakang: bg-[#554f42]
 label:
 tag:

@@ -1,8 +1,7 @@
 ---
 title: "若依框架前后端分离版部署到子路径上时的操作流程"
 date: 2023-10-10T10:19:58+08:00
-черновик: false
-tags: ["springboot", "ruoyi"].
+tags: ["springboot", "ruoyi"]
 ---
 
 # 若依框架前后端分离版部署到子路径上时的操作流程

@@ -1,6 +1,6 @@
 ---
-Название: Arduino IDE
-дата: 2022-11-23 16:23:31.697581
+title: Arduino IDE
+date: 2022-11-23 16:23:31.697581
 background: bg-[#409096]
 label:
 tags:

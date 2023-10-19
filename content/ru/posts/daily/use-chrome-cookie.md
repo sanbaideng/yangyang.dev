@@ -1,8 +1,7 @@
 ---
-название: "Bigtable"
+title: "Bigtable"
 date: 2023-06-27T09:50:12+08:00
-черновик: false
-tags: ["Bigtable", "daily"].
+tags: ["Bigtable", "daily"]
 
 ---
 ##### Что такое Bigtable?

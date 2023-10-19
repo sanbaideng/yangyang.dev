@@ -1,6 +1,6 @@
 ---
-judul: Direktori AI
-tanggal: 2023-03-02 11:28:43
+title: Direktori AI
+date: 2023-03-02 11:28:43
 latar belakang: bg-purple-600
 Tag:
   - AI

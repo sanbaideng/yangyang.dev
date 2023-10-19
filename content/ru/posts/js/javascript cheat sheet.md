@@ -1,8 +1,7 @@
 ---
-название: "шпаргалка по javascript"
+title: "шпаргалка по javascript"
 date: 2023-10-12T08:39:58+08:00
-черновик: false
-теги: ["javascript", "шпаргалка"]
+tag: ["javascript", "шпаргалка"]
 ---
 # Шпаргалка по Javascript
 

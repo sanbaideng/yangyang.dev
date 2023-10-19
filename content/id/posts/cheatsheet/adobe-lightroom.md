@@ -1,6 +1,6 @@
 ---
-Judul: Adobe Lightroom CC
-tanggal: 2022-11-23 16:23:31.702312
+title: Adobe Lightroom CC
+date: 2022-11-23 16:23:31.702312
 Tag: ["lembar contekan", "Pintasan Keyboard"]
    
 ---

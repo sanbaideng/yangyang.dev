@@ -1,7 +1,6 @@
 ---
 title: "[Cloud Native] Установка Traefik1.7 на CentOS"
 date: 2023-02-20T14:01:39+08:00
-черновик: false
 tags: ["k8s"]
 ---
 # Установка Traefik1.7 на CentOS

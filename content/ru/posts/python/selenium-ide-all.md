@@ -1,8 +1,7 @@
 ---
-название: "selenium ide auto test"
+title: "selenium ide auto test"
 date: 2023-02-12T08:30:12+08:00
-черновик: false
-tags: ["python", "video"].
+tags: ["python", "video"]
 
 ---
 

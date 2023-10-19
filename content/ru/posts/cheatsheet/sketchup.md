@@ -1,6 +1,6 @@
 ---
-Название: SketchUp Pro
-дата: 2022-11-23 16:23:31.693091
+title: SketchUp Pro
+date: 2022-11-23 16:23:31.693091
 background: bg-[#265a94]
 label:
 tags:

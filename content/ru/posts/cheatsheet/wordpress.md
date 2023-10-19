@@ -1,6 +1,6 @@
 ---
-Название: WordPress
-дата: 2022-11-23 16:23:31.697854
+title: WordPress
+date: 2022-11-23 16:23:31.697854
 background: bg-[#434140]
 label:
 tags:

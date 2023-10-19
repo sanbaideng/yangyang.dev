@@ -1,8 +1,7 @@
 ---
-название: "как использовать copilot"
+title: "как использовать copilot"
 date: 2023-03-13T10:04:55+08:00
-черновик: false
-теги: ["copilot", "AI"]
+tag: ["copilot", "AI"]
 ---
 Официальная документация по быстрому запуску
 https://docs.github.com/zh/copilot/quickstart

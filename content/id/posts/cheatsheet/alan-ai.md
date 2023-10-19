@@ -1,6 +1,6 @@
 ---
-judul: Alan AI
-tanggal: 2023-03-03 6:00:00
+title: Alan AI
+date: 2023-03-03 6:00:00
 latar belakang: bg-[#4aa181]
 Tag:
     - AI

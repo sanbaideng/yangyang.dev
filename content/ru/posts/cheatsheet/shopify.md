@@ -1,6 +1,6 @@
 ---
-Название: Shopify
-дата: 2022-11-23 16:23:31.704478
+title: Shopify
+date: 2022-11-23 16:23:31.704478
 background: bg-[#8bbb55]
 label:
 tags:

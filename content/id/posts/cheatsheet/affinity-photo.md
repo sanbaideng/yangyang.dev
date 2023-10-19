@@ -1,6 +1,6 @@
 ---
-Judul: Foto Afinitas
-tanggal: 2022-11-23 16:23:31.694998
+title: Foto Afinitas
+date: 2022-11-23 16:23:31.694998
 latar belakang: bg-[#d578f0]
 label:
 Tag:

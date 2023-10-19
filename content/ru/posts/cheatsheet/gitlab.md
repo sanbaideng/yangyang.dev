@@ -1,6 +1,6 @@
 ---
-Название: GitLab
-дата: 2022-11-23 16:23:31.693478
+title: GitLab
+date: 2022-11-23 16:23:31.693478
 background: bg-[#e47030]
 label:
 tags:

@@ -1,6 +1,6 @@
 ---
-Judul: Cron
-tanggal: 2020-12-16 18:28:43
+title: Cron
+date: 2020-12-16 18:28:43
 latar belakang: bg-red-500
 tags:
     - jadwal

@@ -1,6 +1,6 @@
 ---
-Judul: Adobe XD
-tanggal: 2022-11-23 16:23:31.703379
+title: Adobe XD
+date: 2022-11-23 16:23:31.703379
 tags: ["lembar contekan", "Pintasan Papan Ketik"]
 ---
 # Lembar contekan Adobe XD

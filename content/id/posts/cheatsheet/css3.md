@@ -1,6 +1,6 @@
 ---
-judul: CSS 3
-tanggal: 2020-12-25 20:22:47
+title: CSS 3
+date: 2020-12-25 20:22:47
 latar belakang: bg-[#3473b5]
 tag:
     - web

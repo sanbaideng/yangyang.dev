@@ -1,6 +1,6 @@
 ---
-название: Reddit
-дата: 2022-11-23 16:23:31.705575
+title: Reddit
+date: 2022-11-23 16:23:31.705575
 background: bg-[#eb5528]
 label:
 tags:

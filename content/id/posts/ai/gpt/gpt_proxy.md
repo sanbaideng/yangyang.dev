@@ -1,5 +1,5 @@
 ---
-judul: "membuat proxy untuk gpt"
+title: "membuat proxy untuk gpt"
 date: 2023-03-18T17:41:55+08:00
 draft: false
 tags: ["GPT", "proxy"]

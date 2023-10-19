@@ -1,6 +1,6 @@
 ---
-judul: Firefox
-tanggal: 2022-11-23 16:23:31.703957
+title: Firefox
+date: 2022-11-23 16:23:31.703957
 latar belakang: bg-[#e34e4b]
 label:
 tag:

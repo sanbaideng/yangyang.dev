@@ -1,6 +1,6 @@
 ---
-Название: Guitar Pro
-дата: 2022-11-23 16:23:31.693917
+title: Guitar Pro
+date: 2022-11-23 16:23:31.693917
 background: bg-[#659af0]
 лейбл:
 tags:

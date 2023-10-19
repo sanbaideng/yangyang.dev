@@ -1,8 +1,7 @@
 ---
-название: "wechat bot и chatgpt api"
+title: "wechat bot и chatgpt api"
 date: 2023-02-16T15:20:12+08:00
-черновик: false
-теги: ["nodejs", "wechat"]
+tag: ["nodejs", "wechat"]
 ---
 # личный доступ к wechat chatgpt
 

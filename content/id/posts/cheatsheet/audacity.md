@@ -1,6 +1,6 @@
 ---
-judul: Keberanian
-tanggal: 2022-11-23 16:23:31.701833
+title: Keberanian
+date: 2022-11-23 16:23:31.701833
 latar belakang: bg-[#0000e1]
 label:
 tag:

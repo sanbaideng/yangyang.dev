@@ -1,6 +1,6 @@
 ---
-Название: Todoist
-дата: 2022-11-23 16:23:31.696934
+title: Todoist
+date: 2022-11-23 16:23:31.696934
 background: bg-[#cc4d3b]
 label:
 tags:

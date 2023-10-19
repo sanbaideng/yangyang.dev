@@ -1,6 +1,6 @@
 ---
-название: TickTick
-дата: 2022-11-23 16:23:31.696573
+title: TickTick
+date: 2022-11-23 16:23:31.696573
 background: bg-[#526ac9]
 label:
 tags:

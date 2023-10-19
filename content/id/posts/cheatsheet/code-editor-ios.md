@@ -1,6 +1,6 @@
 ---
-Judul: Editor Kode untuk iOS
-tanggal: 2022-11-23 16:23:31.697110
+title: Editor Kode untuk iOS
+date: 2022-11-23 16:23:31.697110
 latar belakang: bg-[#4880c2]
 label: Mac
 Tag:

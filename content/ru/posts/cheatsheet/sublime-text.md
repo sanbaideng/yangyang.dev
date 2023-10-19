@@ -1,6 +1,6 @@
 ---
-Название: Sublime Text
-дата: 2022-11-23 16:23:31.695666
+title: Sublime Text
+date: 2022-11-23 16:23:31.695666
 background: bg-[#e8973e]
 label:
 tags:

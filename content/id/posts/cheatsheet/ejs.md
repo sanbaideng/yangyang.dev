@@ -1,6 +1,6 @@
 ---
-judul: EJS
-tanggal: 2023-04-07
+title: EJS
+date: 2023-04-07
 latar belakang: bg-[#b4ca65]
 tag:
   - EJS
@@ -130,7 +130,7 @@ ejs.renderFile(namafile, data, options, function(err, str){
 Menyertakan templat dengan data:
 
 ```html
-<% include('header', { judul: 'Halaman Saya' }) %>
+<% include('header', { title: 'Halaman Saya' }) %>
 ```
 ------------
 

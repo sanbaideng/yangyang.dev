@@ -1,6 +1,6 @@
 ---
-название: Pocket
-дата: 2022-11-23 16:23:31.702053
+title: Pocket
+date: 2022-11-23 16:23:31.702053
 background: bg-[#d54d57]
 label:
 tags:

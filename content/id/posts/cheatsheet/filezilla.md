@@ -1,6 +1,6 @@
 ---
-judul: FileZilla
-tanggal: 2022-11-23 16:23:31.705296
+title: FileZilla
+date: 2022-11-23 16:23:31.705296
 latar belakang: bg-[#a42115]
 label:
 tag:

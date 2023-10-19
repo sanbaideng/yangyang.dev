@@ -1,6 +1,6 @@
 ---
-Название: Audacity
-дата: 2022-11-23 16:23:31.701833
+title: Audacity
+date: 2022-11-23 16:23:31.701833
 background: bg-[#0000e1]
 label:
 tags:

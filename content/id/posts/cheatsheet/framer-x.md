@@ -1,6 +1,6 @@
 ---
-judul: Pembentuk X
-tanggal: 2022-11-23 16:23:31.701096
+title: Pembentuk X
+date: 2022-11-23 16:23:31.701096
 latar belakang: bg-[#2151ed]
 label: Mac
 Tag:

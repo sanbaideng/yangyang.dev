@@ -1,6 +1,6 @@
 ---
-judul: Bash
-tanggal: 2020-11-25 18:28:43
+title: Bash
+date: 2020-11-25 18:28:43
 latar belakang: bg-[#3e4548]
 tags:
     - shell
@@ -576,7 +576,7 @@ selesai
 
 ### Lanjutkan
 
-```bash {data=3,5}
+```bash
 for number in $(seq 1 3); do
     if [ [ $nomor == 2 ]]; then
         continue

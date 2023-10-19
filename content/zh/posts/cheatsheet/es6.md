@@ -25,7 +25,7 @@ Getting Started
 
 #### Let
 
-```js{2,4}
+```js
 function fn () {
   let x = 0
   if (true) {
@@ -86,7 +86,7 @@ See: [Binary and Octal Literals](https://babeljs.io/learn-es2015/#binary-and-oct
 
 ### Exponential Operator
 
-```js {1}
+```js
 const byte = 2 **8
 ```
 
@@ -154,7 +154,7 @@ class Circle extends Shape {
 
 #### Constructor
 
-```js {1}
+```js
 constructor (radius) {
   this.radius = radius
 }
@@ -164,7 +164,7 @@ constructor (radius) {
 
 #### method
 
-```js {1}
+```js
 getArea () {
   return Math.PI *2 *this.radius
 }
@@ -174,7 +174,7 @@ getArea () {
 
 #### Call the superclass method
 
-```js {2}
+```js
 expand(n) {
   return super.expand(n) *Math.PI
 }
@@ -184,7 +184,7 @@ expand(n) {
 
 #### Static methods
 
-```js {1}
+```js
 static createFromDiameter(diameter) {
   return new Circle(diameter /2)
 }
@@ -239,7 +239,7 @@ Promises
 
 ### make the commitment
 
-```js {1}
+```js
 new Promise((resolve, reject) => {
   if (ok) { resolve(result) }
   else { reject(error) }
@@ -253,7 +253,7 @@ See: [Promises](https://babeljs.io/learn-es2015/#promises)
 
 ### Using Promises
 
-```js{2,3}
+```js
 promise
   .then((result) => { ··· })
   .catch((error) => { ··· })
@@ -263,7 +263,7 @@ promise
 
 ### Using Promises in finally
 
-```js {4}
+```js
 promise
   .then((result) => { ··· })
   .catch((error) => { ··· })
@@ -289,7 +289,7 @@ Promise.resolve(···)
 
 ### Async-await
 
-```js{2,3}
+```js
 async function run () {
   const user = await getUser()
   const tweets = await getTweets(user)
@@ -313,7 +313,7 @@ Destructuring
 
 #### Arrays
 
-```js {1}
+```js
 const [first, last] = ['Nikola', 'Tesla']
 ```
 
@@ -321,7 +321,7 @@ const [first, last] = ['Nikola', 'Tesla']
 
 #### Objects
 
-```js {1}
+```js
 let {title, author} = {
   title: 'The Silkworm',
   author: 'R. Galbraith'
@@ -353,7 +353,7 @@ A default value can be assigned when destructuring an array or object
 
 ### Function parameters
 
-```js {1}
+```js
 function greet({ name, greeting }) {
   console.log(`${greeting}, ${name}!`)
 }
@@ -371,7 +371,7 @@ Destructuring of objects and arrays can also be done in function parameters
 
 ### Defaults
 
-```js {1}
+```js
 function greet({ name = 'Rauno' } = {}) {
   console.log(`Hi ${name}!`);
 }
@@ -388,7 +388,7 @@ greet({ name: 'Larry' }) // Hi Larry!
 
 ### Reassign keys
 
-```js {1}
+```js
 function printCoordinates({ left: x, top: y }) {
   console.log(`x: ${x}, y: ${y}`)
 }
@@ -406,7 +406,7 @@ This example assigns `x` to the value of the `left` key
 
 ### Loop
 
-```js {1}
+```js
 for (let {title, artist} of songs) {
   ···
 }
@@ -418,7 +418,7 @@ Assignment expressions also work in loops
 
 ### Object Deconstruction
 
-```js {1}
+```js
 const { id, ...detail } = song;
 ```
 
@@ -435,7 +435,7 @@ Spread operator Spread
 
 #### with object extensions
 
-```js {2}
+```js
 const options = {
   ...defaults,
   visible: true
@@ -463,7 +463,7 @@ See: [Object Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 #### with array extension
 
-```js{2,3}
+```js
 const users = [
   ...admins,
   ...editors,
@@ -495,7 +495,7 @@ Functions
 
 #### Default parameters
 
-```js {1}
+```js
 function greet (name = 'Jerry') {
   return `Hello ${name}`
 }
@@ -505,7 +505,7 @@ function greet (name = 'Jerry') {
 
 #### Rest parameters
 
-```js {1}
+```js
 function fn(x, ...y) {
   // y is an array
   return x * y.length
@@ -516,7 +516,7 @@ function fn(x, ...y) {
 
 #### Extensions
 
-```js {1}
+```js
 fn(...[1, 2, 3])
 //same as fn(1, 2, 3)
 ```
@@ -532,7 +532,7 @@ See: [function parameters](https://babeljs.io/learn-es2015/#default--rest--sprea
 
 #### Arrow functions
 
-```js {1}
+```js
 setTimeout(() => {
   ···
 })
@@ -542,7 +542,7 @@ setTimeout(() => {
 
 #### with parameters
 
-```js {1}
+```js
 readFile('text.txt', (err, data) => {
   ...
 })
@@ -551,7 +551,7 @@ readFile('text.txt', (err, data) => {
 
 
 #### implicit return
-```js{1,4,5,6}
+```js
 arr.map(n => n*2)
 //no curly braces = implicit return
 //Same as: arr.map(function (n) { return n*2 })
@@ -633,7 +633,7 @@ See: [Object Literals Enhanced](https://babeljs.io/learn-es2015/#enhanced-object
 
 ### method
 
-```js {2}
+```js
 const App = {
   start () {
     console.log('running')
@@ -648,7 +648,7 @@ See: [Object Literals Enhanced](https://babeljs.io/learn-es2015/#enhanced-object
 
 ### Getters and setters
 
-```js{2,5}
+```js
 const App = {
   get closed () {
     return this.status === 'closed'
@@ -665,7 +665,7 @@ See: [Object Literals Enhanced](https://babeljs.io/learn-es2015/#enhanced-object
 
 ### Computed property name
 
-```js {3}
+```js
 let event = 'click'
 let handlers = {
   [`on${event}`]: true
@@ -679,7 +679,7 @@ See: [Object Literals Enhanced](https://babeljs.io/learn-es2015/#enhanced-object
 
 ### Extract value
 
-```js{3,5}
+```js
 const fatherJS = { age: 57, name: "Zhang San" }
 Object.values(fatherJS)
 //[57, "Zhang San"]
@@ -775,7 +775,7 @@ See: [Module exports](https://babeljs.io/learn-es2015/#modules)
 
 ### `as` keyword renaming
 
-```js{2,8,12-14}
+```js
 import {
   lastName as surname // import rename
 } from './profile.js';

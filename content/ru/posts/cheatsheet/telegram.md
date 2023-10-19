@@ -1,6 +1,6 @@
 ---
-Название: Telegram Desktop
-дата: 2022-11-23 16:23:31.700963
+title: Telegram Desktop
+date: 2022-11-23 16:23:31.700963
 background: bg-[#50a1dc]
 label:
 tags:

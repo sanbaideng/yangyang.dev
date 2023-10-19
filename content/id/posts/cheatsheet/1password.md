@@ -1,6 +1,6 @@
 ---
-judul: 1Kata Sandi
-tanggal: 2022-11-23 16:23:31.702312
+title: 1Kata Sandi
+date: 2022-11-23 16:23:31.702312
 tags: ["lembar contekan", "Pintasan Keyboard"]
 ---
 

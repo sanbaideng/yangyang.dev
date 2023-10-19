@@ -1,6 +1,6 @@
 ---
-judul: Rasio Aspek
-tanggal: 2022-09-21 10:28:43
+title: Rasio Aspek
+date: 2022-09-21 10:28:43
 latar belakang: bg-emerald-600
 Tag:
     - foto

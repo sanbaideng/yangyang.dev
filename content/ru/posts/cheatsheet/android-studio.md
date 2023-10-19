@@ -1,6 +1,6 @@
 ---
-Название: Android Studio
-дата: 2022-11-23 16:23:31.704217
+title: Android Studio
+date: 2022-11-23 16:23:31.704217
 background: bg-[#6bd488]
 label:
 tags:

@@ -1,6 +1,6 @@
 ---
-Judul: Airtable
-tanggal: 2022-11-23 16:23:31.699659
+title: Airtable
+date: 2022-11-23 16:23:31.699659
 latar belakang: bg-[#f1b73f]
 label:
 tag:

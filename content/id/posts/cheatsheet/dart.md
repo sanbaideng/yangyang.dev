@@ -1,6 +1,6 @@
 ---
-judul: Anak panah
-tanggal: 2021-11-04 10:12:25
+title: Anak panah
+date: 2021-11-04 10:12:25
 latar belakang: bg-[#58aee9]
 tags:
     - anak panah

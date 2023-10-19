@@ -1,24 +1,14 @@
 ---
-judul: Kode ASCII
-tanggal: 2023-01-05 12:44:21
-tag:
-    - ASCII
-    - kode
-    - Tabel
-kategori
-  - Lainnya
-intro: |
-  Lembar contekan ini adalah daftar lengkap Tabel Kode ASCII dengan nomor dan namanya.
----
-
-
-Tabel Kode ASCII {.cols-1}
+title: Kode ASCII
+date: 2023-01-05 12:44:21
+tag: ["ASCII","kode"]  
+--- 
 ---------------
 
 
 
 ### Tabel Kode ASCII
-
+Lembar contekan ini adalah daftar lengkap Tabel Kode ASCII dengan nomor dan namanya.
 
 | Simbol | Des | Okt | Hex | Bin |
 |------------------------------------|------|------|------|----------|

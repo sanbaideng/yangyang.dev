@@ -1,6 +1,6 @@
 ---
-judul: Chmod
-tanggal: 2021-07-01 10:51:44
+title: Chmod
+date: 2021-07-01 10:51:44
 latar belakang: bg-emerald-600
 tags:
     - izin

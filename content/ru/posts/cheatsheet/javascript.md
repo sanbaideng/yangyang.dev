@@ -1,6 +1,6 @@
 ---
-название: JavaScript
-дата: 2020-12-24 17:12:25
+title: JavaScript
+date: 2020-12-24 17:12:25
 фон: bg-[#ebd94e]
 теги:
     - js
@@ -927,7 +927,7 @@ const trainSchedule = {
 
 ``javascript
 const classElection = {
-  дата: '12 января'
+  date: '12 января'
 };
 
 console.log(classElection.place); // undefined

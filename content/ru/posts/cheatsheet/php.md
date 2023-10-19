@@ -1,6 +1,6 @@
 ---
-название: PHP
-дата: 2021-01-04 15:23:28
+title: PHP
+date: 2021-01-04 15:23:28
 фон: bg-[#7477a9]
 теги:
     - веб
@@ -335,7 +335,7 @@ var_dump(strpos($s, "L")); # => false
 
 ### Определение {.row-span-2}
 ``php
-$a1 = ["hello", "world", "!"].
+$a1 = ["hello", "world", "!"]
 $a2 = array("hello", "world", "!");
 $a3 = explode(",", "apple,pear,peach");
 ```

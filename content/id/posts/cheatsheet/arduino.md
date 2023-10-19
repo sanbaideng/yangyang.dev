@@ -1,6 +1,6 @@
 ---
-Judul: Arduino IDE
-tanggal: 2022-11-23 16:23:31.697581
+title: Arduino IDE
+date: 2022-11-23 16:23:31.697581
 latar belakang: bg-[#409096]
 label:
 tag:

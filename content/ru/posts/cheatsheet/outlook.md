@@ -1,6 +1,6 @@
 ---
-Название: Microsoft Outlook
-дата: 2022-11-23 16:23:31.698084
+title: Microsoft Outlook
+date: 2022-11-23 16:23:31.698084
 background: bg-[#3a7cd1]
 label:
 tags:

@@ -1,6 +1,6 @@
 ---
-Название: Github
-дата: 2022-11-23 16:23:31.704787
+title: Github
+date: 2022-11-23 16:23:31.704787
 background: bg-[#17191e]
 label:
 tags:

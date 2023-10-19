@@ -1,6 +1,6 @@
 ---
-judul: Apple Music
-tanggal: 2022-11-23 16:23:31.700157
+title: Apple Music
+date: 2022-11-23 16:23:31.700157
 latar belakang: bg-[#e05564]
 label: Mac
 Tag:
