@@ -1,6 +1,6 @@
 ---
 title: "Immersive Translate"
-date: 2023-03-18T17:41:55+08:00
+date: 2024-04-30T09:11:55+08:00
 draft: false
 tags: ["GPT","Immersive Translate"]
 ---
