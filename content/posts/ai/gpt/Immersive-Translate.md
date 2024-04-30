@@ -5,6 +5,7 @@ draft: false
 tags: ["GPT","Immersive Translate"]
 ---
 # 沉浸式翻译插件 国内用法
+不需要太好的效果，直接看第二步->第六步->第四步，即可。
 
 ## 先获取山寨gpt账号
 
@@ -58,7 +59,7 @@ tags: ["GPT","Immersive Translate"]
 
 
 
-## 再获取chrome插件： Immersive Translate
+## 二、再获取chrome插件： Immersive Translate
 
 安装插件这步需要魔法，打开网址：https://chromewebstore.google.com/?utm_source=ext_app_menu
 
@@ -76,7 +77,7 @@ tags: ["GPT","Immersive Translate"]
 
 
 
-## 再结合上面两个，将gpt的key，配置到插件里面。
+## 三、再结合上面两个，将gpt的key，配置到插件里面。
 
 找到刚安装的chrome插件：
 
@@ -114,7 +115,7 @@ tags: ["GPT","Immersive Translate"]
 
 
 
-## 测试
+## 四、测试
 
 到这里就完成了配置，
 
@@ -132,7 +133,7 @@ tags: ["GPT","Immersive Translate"]
 
 ![image-20240430091027581](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430091027581.png)
 
-## 文件翻译功能（耗费可能较多）
+## 五、文件翻译功能,配置还是之前的配置，不用动（gpt-4耗费可能较多，需要注意下； 而gpt-3.5很便宜，加上山寨有折扣，一般耗费很低）
 
 图十一： 点击插件，点击左下角 pdf/epub
 
@@ -160,7 +161,7 @@ tags: ["GPT","Immersive Translate"]
 
 
 
-### 不需要太好的效果，只想试一下，就可以选择微软的翻译，不要钱。
+## 六、不需要太好的效果，只想试一下，就可以选择微软的翻译，不用充值第一步的平台，是免费的。
 
 ![image-20240430092551994](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430092551994.png)
 
