@@ -7,13 +7,13 @@ tags: ["GPT","Immersive Translate"]
 # 沉浸式翻译插件 国内用法
 不需要太好的效果，直接看第二步->第六步->第四步，即可。
 
-## 先获取山寨gpt账号
+## 一、先获取山寨gpt账号
 
 进入https://www.gptapi.us/register?aff=gs5O 注册 登录，然后充值。（注：这个链接带了我的邀请码，我可以获得一元）
 
 
 
-### 先看怎么充值50元
+### 1.1 先看怎么充值50元
 
 
 
@@ -35,7 +35,7 @@ tags: ["GPT","Immersive Translate"]
 
 卡密填到 图一，获取额度。
 
-### 再看怎么获取api key（gpt官方的中转）
+### 1.2 再看怎么获取api key（gpt官方的中转）
 
 点击令牌->新建令牌，随意输入名称，保持永不过期，无限额度(充的50元是上限)，其他不管，点击提交。
 
@@ -55,7 +55,7 @@ tags: ["GPT","Immersive Translate"]
 
 ![image-20240430084947365](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430084947365.png)
 
-到这里 准备工作就完成了。
+到这里 gpt方面的准备工作就完成了。
 
 
 
