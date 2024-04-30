@@ -130,4 +130,4 @@ tags: ["GPT","Immersive Translate"]
 
 图十：效果：
 
-![image-20240430091027581](C:\Users\sanba\AppData\Roaming\Typora\typora-user-images\image-20240430091027581.png)
+![image-20240430091027581](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430091027581.png)
