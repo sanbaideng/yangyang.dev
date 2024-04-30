@@ -131,3 +131,36 @@ tags: ["GPT","Immersive Translate"]
 图十：效果：
 
 ![image-20240430091027581](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430091027581.png)
+
+## 文件翻译功能（耗费可能较多）
+
+图十一： 点击插件，点击左下角 pdf/epub
+
+![image-20240430091855981](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430091855981.png)
+
+
+
+图十二：跳转到文件翻译页，点击上传需要翻译的文件：
+
+![image-20240430091936475](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430091936475.png)
+
+
+
+图十二：上传了epub后的效果，此时还没有点击翻译 ，插件只是把文件文章节展示了：（ps：上传的文档最好能复制文字，效果更好）
+
+![image-20240430092222155](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430092222155.png)
+
+
+
+图十三：点击翻译：需要一点时间，看到文字后面转圈圈就是在调用gpt了。
+
+![image-20240430092359309](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430092359309.png)
+
+
+
+
+
+### 不需要太好的效果，只想试一下，就可以选择微软的翻译，不要钱。
+
+![image-20240430092551994](https://markdowna.oss-cn-shenzhen.aliyuncs.com/articalimage-20240430092551994.png)
+
